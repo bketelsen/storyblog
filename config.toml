@@ -1,0 +1,34 @@
+# Site settings
+baseurl = "https://bjk.azurefd.net"
+title = "Brian Ketelsen"
+paginate = 5
+canonifyurls = false
+buildFuture = true
+theme = "story"
+
+[[menu.social]]
+  name = "GitHub"
+  title = "fab fa-github-square"
+  url = "https://github.com/bketelsen/"
+
+[[menu.main]]
+  name = "Talks"
+  title = "Talks"
+  url = "/talks/"
+
+[[menu.main]]
+  name = "Slides"
+  title = "Slides"
+  url = "/slides/"
+
+[params]
+  author = "Brian Ketelsen"
+  twitter = "bketelsen"
+  classes = ["feature-highlight","feature-hrfleuron","feature-figcaption","feature-figcaption-hidden"]
+
+[outputs]
+  home = ["HTML", "JSON", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML", "RSS"]
