@@ -1,8 +1,8 @@
 ---
-title: 'Stuttgart Modules'
+title: 'Go Modules'
 date: "2018-12-13T19:16:10-05:00"
 url: "/talks/stuttgart-modules/"
-event: ""
+event: "Stuttgart Go Meetup"
 location: ""
 site: ""
 video: "https://www.youtube.com/watch?v=V8FQNen4WAA&t=36s"
