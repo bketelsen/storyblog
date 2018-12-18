@@ -31,11 +31,13 @@ background-image: url(EITNxUcIg3A.jpg)
 ## Gophercon Russia 2018
 
 ---
+
 # About Me
 
 - Slides are at https://brianketelsen.com/talks/
 - Ask questions anytime
 ---
+
 ## About Me
 
 - Microsoft Azure - Cloud Developer Advocate
@@ -44,6 +46,7 @@ background-image: url(EITNxUcIg3A.jpg)
 - GOPHERS!: https://github.com/ashleymcnamara/gophers
 
 ---
+
 ## This Talk
 
 * [https://cda.ms/jP](https://cda.ms/jP)
