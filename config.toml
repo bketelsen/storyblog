@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://adoring-yalow-02cfb9.netlify.com"
+baseurl = "https://brianketelsen.com"
 title = "Brian Ketelsen"
 paginate = 5
 canonifyurls = false
