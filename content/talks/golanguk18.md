@@ -1,13 +1,16 @@
 ---
-title: 'Golanguk18'
-date: "2018-12-13T19:15:36-05:00"
+title: Bringing Go To The Enterprise
+date: "2018-08-03T19:15:45-05:00"
 url: "/talks/golanguk18/"
-event: ""
+event: "Golang UK"
 location: ""
-site: ""
+site: "https://www.gophercon.co.uk/"
 video: ""
 slides: "/slides/golanguk18/"
-thumbnail: "/slides/golanguk18/thumbnail.jpg"
-image: "/slides/golanguk18/cover.jpg"
-description: ""
+image: "/slides/golanguk18/CCLyr_m4emY.jpg"
+thumbnail: "slides/golanguk18/CCLyr_m4emY-thumb.jpg"
+credit: "https://unsplash.com/photos/CCLyr_m4emY"
+description: "Bringing Go To The Enterprise"
 ---
+
+# Bringing Go To The Enterprise

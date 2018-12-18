@@ -1,6 +1,6 @@
 ---
 title: Code Like the Go Team 
-date: "2018-12-13T19:15:08-05:00"
+date: "2018-04-05T19:14:50-05:00"
 url: "slides/gcru18-best/"
 image: "slides/gcru18-best/EITNxUcIg3A.jpg"
 thumbnail: "slides/gcru18-best/EITNxUcIg3A-thumb.jpg"

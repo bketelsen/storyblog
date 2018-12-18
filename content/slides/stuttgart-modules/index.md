@@ -2,9 +2,9 @@
 title: Stuttgart Modules
 date: "2018-09-20T19:16:01-05:00"
 url: "/slides/stuttgart-modules/"
-image: "slides/gcru18-best/EITNxUcIg3A.jpg"
-thumbnail: "slides/gcru18-best/EITNxUcIg3A-thumb.jpg"
-credit: "https://unsplash.com/photos/EITNxUcIg3A"
+image: "slides/tuttgart-modules/VOsy-vH3V2c.jpg"
+thumbnail: "slides/stuttgart-modules/VOsy-vH3V2c-thumb.jpg"
+credit: "https://unsplash.com/photos/VOsy-vH3V2c"
 description: "Remote Presentation on Go Modules"
 ratio: "16:9"
 themes:
