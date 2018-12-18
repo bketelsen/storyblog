@@ -21,6 +21,11 @@ theme = "story"
   title = "Slides"
   url = "/slides/"
 
+[[menu.main]]
+  name = "About"
+  title = "About"
+  url = "/about/"
+
 [params]
   author = "Brian Ketelsen"
   twitter = "bketelsen"
