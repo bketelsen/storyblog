@@ -7,8 +7,8 @@ location: ""
 site: "https://www.meetup.com/Stuttgart-Gophers/"
 video: "https://www.youtube.com/watch?v=V8FQNen4WAA"
 slides: "/slides/stuttgart-modules/"
-thumbnail: "/slides/stuttgart-modules/thumbnail.jpg"
-image: "/slides/stuttgart-modules/cover.jpg"
+thumbnail: "/slides/gcru18-best/EITNxUcIg3A-thumb.jpg"
+image: "/slides/gcru18-best/EITNxUcIg3A.jpg"
 description: ""
 ---
 
