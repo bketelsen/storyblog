@@ -1,14 +1,15 @@
 ---
-title: 'Gophercon Russia VGO'
-date: "2018-12-13T19:15:16-05:00"
+title: 'Go Modules'
+date: "2018-04-05T19:15:16-05:00"
 url: "/talks/gcru18-vgo/"
 event: "GopherCon Russia 2018"
-location: "Moscos"
-site: ""
+location: ""
+site: "https://www.gophercon-russia.ru/2018en#rec46832568"
 video: ""
 slides: "/slides/gcru18-vgo/"
-thumbnail: "/slides/gcru18-vgo/thumbnail.jpg"
-image: "/slides/gcru18-vgo/cover.jpg"
-description: "Description Here"
+thumbnail: "/slides/gcru18-best/EITNxUcIg3A-thumb.jpg"
+image: "/slides/gcru18-best/EITNxUcIg3A.jpg"
+description: "Go Modules"
 ---
-Words
+# GopherCon Russia 2018
+## Go Modules
