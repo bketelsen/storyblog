@@ -5,6 +5,7 @@ paginate = 5
 canonifyurls = false
 buildFuture = true
 theme = "story"
+googleAnalytics = "UA-46945124-1"
 
 [[menu.social]]
   name = "GitHub"
