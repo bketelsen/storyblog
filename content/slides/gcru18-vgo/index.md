@@ -16,14 +16,6 @@ classes:
 - feature-qrcode
 - feature-nohighlight
 ---
-
-layout: true
-
-.footer[
-- @bketelsen
-- brianketelsen.com
-]
----
 class: title, smokescreen, shelf, no-footer
 background-image: url(I_pOqP6kCOI.jpg)
 
