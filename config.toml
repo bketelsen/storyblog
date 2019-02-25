@@ -4,7 +4,7 @@ title = "Brian Ketelsen"
 paginate = 5
 canonifyurls = false
 buildFuture = true
-theme = "terminal"
+theme = "bjk"
 googleAnalytics = "UA-46945124-1"
 copyright = "Brian Ketelsen"
 
@@ -17,30 +17,29 @@ copyright = "Brian Ketelsen"
   showMenuItems = 2
   author = "Brian Ketelsen"
   twitter = "bketelsen"
+  tagline = "Sniffing the Glue"
   
-[languages]
-  [languages.en]
-    title = "~/BrianKetelsen"
-    subtitle = "Sniffing the Glue"
-    keywords = "Go,golang,gophercon"
-    copyright = "&copy; 2019 Brian Ketelsen"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "~/BrianKetelsen"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "talks"
-        name = "Talks"
-        url = "/talks"
+[menu]
+  [[menu.nav]]
+  name = "Posts"
+  url = "/"
+  weight = 1
+  [[menu.nav]]
+  name = "Projects"
+  url = "/projects"
+  weight = 2
+  [[menu.nav]]
+  name = "Topics"
+  url = "/tags/"
+  weight = 3
+  [[menu.nav]]
+  name = "About"
+  url = "/about/"
+  weight = 4
+  [[menu.nav]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 5
 
 [outputs]
   home = ["HTML", "JSON", "RSS"]
