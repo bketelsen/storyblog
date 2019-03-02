@@ -14,9 +14,15 @@ copyright = "Brian Ketelsen"
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "blue"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 4
   author = "Brian Ketelsen"
   twitter = "bketelsen"
+  # set theme to full screen width
+  fullWidthTheme = true
+  # center theme with default width
+  centerTheme = true
+
+
   
 [languages]
   [languages.en]
@@ -34,14 +40,22 @@ copyright = "Brian Ketelsen"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
       [[languages.en.menu.main]]
         identifier = "talks"
         name = "Talks"
         url = "/talks"
 
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
 [outputs]
   home = ["HTML", "JSON", "RSS"]
   page = ["HTML"]
