@@ -1,10 +1,12 @@
 {{ define "main" }}
   <div class="post">
-    <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+    <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }} @ {{ .Params.Event | markdownify }}</a></h1>
     <div class="post-meta">
         <span class="post-date">
           {{ .Date.Format "2006-01-02" }}
         </span>
+      {{ with .Params.Video }}<span class="post-author">:: <a href='{{ . }}'>video</a></span>{{ end }}
+      {{ with .Params.Slides}}<span class="post-author">:: <a href='{{ . }}'>slides</a></span>{{ end }}
       {{ with .Params.Author }}<span class="post-author">:: {{ . }}</span>{{ end }}
     </div>
 
@@ -16,7 +18,7 @@
       </span>
     {{ end }}
 
-    {{ with .Params.Cover }}
+    {{ with .Params.Image }}
       <img src="{{ . | absURL }}" class="post-cover" />
     {{ end }}
 
