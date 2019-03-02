@@ -1,5 +1,6 @@
 ---
 title: Azure DevOps CI Setup
+layout: post
 date: "2018-09-11"
 url: "/azure-devops-ci-setup"
 description: "Setting up CI on Azure DevOps"
