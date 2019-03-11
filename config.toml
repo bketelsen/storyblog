@@ -14,7 +14,7 @@ copyright = "Brian Ketelsen"
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "blue"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
+  showMenuItems = 5
   author = "Brian Ketelsen"
   twitter = "bketelsen"
   # set theme to full screen width
@@ -52,6 +52,10 @@ copyright = "Brian Ketelsen"
         identifier = "posts"
         name = "Posts"
         url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "quick"
+        name = "Quick"
+        url = "/quick"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
