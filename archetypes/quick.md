@@ -1,6 +1,6 @@
 ---
 title: Title
-date: "2019-03-11T22:40:12Z"
+date: {{ .Date }
 description: "Description"
 link: ""
 tags:
