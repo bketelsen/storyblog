@@ -1,6 +1,6 @@
 ---
 title: Keyboard As Touchpad
-date: "2019-03-11"
+date: "2019-03-11T22:40:12Z"
 description: "This Keyboard Doubles as a Touchpad"
 link: "https://www.mokibo.com/"
 tags:
