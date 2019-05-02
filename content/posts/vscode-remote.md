@@ -20,7 +20,7 @@ The [Visual Studio Code](https://code.visualstudio.com/) team just [announced](h
 
 ### Remote Editing
 
-A [extension pack](https://aka.ms/VSCodeRemoteExtensionPack) was released today that consists of three related extensions to Code.
+An [extension pack](https://aka.ms/VSCodeRemoteExtensionPack) was released today that consists of three related extensions to Code.
 
 * [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
 * [Remote - Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
