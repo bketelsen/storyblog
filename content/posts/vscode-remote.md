@@ -19,7 +19,7 @@ categories:
 The [Visual Studio Code](https://code.visualstudio.com/) team just [announced](https://cda.ms/RN) perhaps the most eagerly anticipated feature yet.  Remote editing.
 
 [Twitch Stream - Mac to SSH](https://www.twitch.tv/videos/419428954##)
-
+[Twitch Stream - WSL & Containers](https://www.twitch.tv/videos/419800747)
 
 ### Remote Editing
 
