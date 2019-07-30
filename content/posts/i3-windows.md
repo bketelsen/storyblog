@@ -49,8 +49,8 @@ Strange, strange times we live in. 20 years ago Microsoft called Linux a cancer 
 
 Screen shots:
 
-[i3 in MobaXTerm](/content/images/2017/09/i3.png)
-[i3 behind Windows](/content/images/2017/09/windows-on-top.png)
+[i3 in MobaXTerm](/images/2017/09/i3.png)
+[i3 behind Windows](/images/2017/09/windows-on-top.png)
 
 
 
