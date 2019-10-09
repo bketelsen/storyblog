@@ -71,7 +71,7 @@ When I'm done working in the terminal, but not finished with a particular task, 
 
 ### Reference / Links
 
-Adding `byobu` to my toolbelt drastically changed the amount of time it takes to engage with a project I need to walk away from. I have a hard time guessing, but I think I'm saving an hour or more per week at a minimum.  That's a lot of time.
+Adding `byobu` to my toolbelt drastically cut the amount of time it takes to engage with a project I need to walk away from. I have a hard time guessing, but I think I'm saving an hour or more per week at a minimum.  That's a lot of time.
 
 
 * [Ubuntu Wiki: Byobu](https://help.ubuntu.com/community/Byobu)
