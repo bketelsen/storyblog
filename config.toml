@@ -1,4 +1,5 @@
 # Site settings
+theme = "story"
 baseurl = "https://brianketelsen.com/"
 title = "Sniffing the Glue"
 paginate = 5
