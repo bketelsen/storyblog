@@ -11,6 +11,16 @@ buildFuture = true
   url = "https://github.com/bketelsen"
 
 [[menu.main]]
+  name = "Quick"
+  title = "Quick"
+  url = "/quick/"
+
+[[menu.main]]
+  name = "Posts"
+  title = "Posts"
+  url = "/posts/"
+
+[[menu.main]]
   name = "Talks"
   title = "Talks"
   url = "/talks/"
