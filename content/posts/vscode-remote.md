@@ -3,6 +3,9 @@ title: VS Code Remote Development
 layout: post
 date: "2019-05-02"
 url: "/vscode-remote-development"
+image: /images/fpoHihXiMhg.jpg
+thumbnail: /images/fpoHihXiMhg-thumb.jpg
+credit: https://unsplash.com/photos/fpoHihXiMhg
 description: "Use VS Code against a remote computer or container"
 tags:
 - "vscode"
