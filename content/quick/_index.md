@@ -1,9 +1,9 @@
 ---
 title: Brian Ketelsen
-subtitle: "Sniffing the Glue"
-image: /images/Pyjp2zmxuLk.jpg
-thumbnail: /images/Pyjp2zmxuLk-thumb.jpg
-credit: https://unsplash.com/photos/Pyjp2zmxuLk
+subtitle: "Quick Posts"
+image: /images/Ztkd0xd_kwY.jpg
+thumbnail: /images/Ztkd0xd_kwY-thumb.jpg
+credit: https://unsplash.com/photos/Ztkd0xd_kwY
 ---
 [![Brian Ketelsen](/images/2017/09/briangopher.png)](https://www.brianketelsen.com)
 

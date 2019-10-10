@@ -3,7 +3,9 @@ author = "Brian Ketelsen"
 date = 2017-09-28T22:40:12Z
 description = ""
 draft = false
-image = "/images/2017/09/briangopher.png"
+image = "/images/Pyjp2zmxuLk.jpg"
+thumbnail = "/images/Pyjp2zmxuLk-thumb.jpg"
+credit = "https://unsplash.com/photos/Pyjp2zmxuLk"
 slug = "about"
 title = "About Me"
 
