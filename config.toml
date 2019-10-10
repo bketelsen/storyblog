@@ -1,65 +1,29 @@
 # Site settings
-baseurl = "https://brianketelsen.com"
-title = "Brian Ketelsen"
+baseurl = "https://brianketelsen.com/"
+title = "Sniffing the Glue"
 paginate = 5
-canonifyurls = false
 buildFuture = true
-theme = "terminal"
-googleAnalytics = "UA-46945124-1"
-copyright = "Brian Ketelsen"
+
+[[menu.social]]
+  name = "GitHub"
+  title = "fab fa-github-square"
+  url = "https://github.com/bketelsen"
+
+[[menu.main]]
+  name = "Talks"
+  title = "Talks"
+  url = "/talks/"
+
+[[menu.main]]
+  name = "Slides"
+  title = "Slides"
+  url = "/slides/"
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "blue"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 5
   author = "Brian Ketelsen"
   twitter = "bketelsen"
-  # set theme to full screen width
-  fullWidthTheme = false
-  # center theme with default width
-  centerTheme = true
+  classes = []
 
-
-  
-[languages]
-  [languages.en]
-    title = "~/BrianKetelsen"
-    subtitle = "Sniffing the Glue"
-    keywords = "Go,golang,gophercon"
-    copyright = "&copy; 2019 Brian Ketelsen"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "~/BrianKetelsen"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "projects"
-        name = "Projects"
-        url = "/projects"
-      [[languages.en.menu.main]]
-        identifier = "talks"
-        name = "Talks"
-        url = "/talks"
-
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts"
-      [[languages.en.menu.main]]
-        identifier = "quick"
-        name = "Quick"
-        url = "/quick"
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
 [outputs]
   home = ["HTML", "JSON", "RSS"]
   page = ["HTML"]
