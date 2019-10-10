@@ -1,57 +1,23 @@
+{{ define "title" }}{{ cond (eq .Site.Params.titlecase true) (.Title | title | markdownify) (.Title | markdownify) }}{{ end }}
+
 {{ define "main" }}
-  <div class="post">
-    <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
-    <div class="post-meta">
-      {{ if ne .Params.Github "" }}
-        <span class="post-date">
-          <a href='{{ .Params.Github }}'>{{ .Params.Github }}</a>
-        </span>
-      {{ end }}
-      {{ with .Params.Author }}<span class="post-author">:: {{ . }}</span>{{ end }}
-    </div>
 
-    {{ if .Params.tags }}
-      <span class="post-tags">
-        {{ range .Params.tags }}
-          #<a href="{{ (urlize (printf "tags/%s/" .)) | absURL }}">{{ . }}</a>&nbsp;
-        {{ end }}
-      </span>
-    {{ end }}
+<article class="center bg-white br-3 pv1 ph4 nested-copy-line-height lh-copy f4 nested-links mw-100 measure-wide">
+  {{ .Content }}
 
-    {{ with .Params.Cover }}
-      <img src="{{ . | absURL }}" class="post-cover" />
-    {{ end }}
+							<p class="pa0 sans-serif f7"><a class="ba br3 pa2 link" href="{{ .Params.Github}}">Go to {{ .Title }}<i class="fas fa-chevron-circle-right"></i></a></p>
+</article>
 
-    <div class="post-content">
-      {{ .Content }}
-    </div>
-    {{ if or .NextInSection .PrevInSection }}
-      <div class="pagination">
-        <div class="pagination__title">
-          <span class="pagination__title-h">{{ $.Site.Params.ReadOtherPosts }}</span>
-          <hr />
-        </div>
-        <div class="pagination__buttons">
-          {{ if .NextInSection }}
-            <span class="button previous">
-              <a href="{{ .NextInSection.Permalink }}">
-                <span class="button__icon">←</span>
-                <span class="button__text">{{ .NextInSection.Title }}</span>
-              </a>
-            </span>
-          {{ end }}
-          {{ if .PrevInSection }}
-            <span class="button next">
-              <a href="{{ .PrevInSection.Permalink }}">
-                <span class="button__text">{{ .PrevInSection.Title }}</span>
-                <span class="button__icon">→</span>
-              </a>
-            </span>
-          {{ end }}
-        </div>
-      </div>
-    {{ end }}
 
-    {{ partial "comments.html" . }}
-  </div>
+
+{{ end }}
+{{ define "social" }}
+		<meta name="og:title" content="{{ cond (eq .Site.Params.titlecase true) (.Title | title | markdownify) (.Title | markdownify) }}" />
+		<meta name="og:type" content="article" />
+		<meta name="og:image" content="{{ default "img/default-header-img.jpg" .Params.image | absURL }}" />
+		<meta name="og:description" content="{{ .Description | markdownify }}" />
+		<meta name="og:url" content="{{ .Permalink }}" />
+		<meta name="og:site_name" content="{{ cond (eq .Site.Params.titlecase true) (.Title | title | markdownify) (.Title | markdownify) }}" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
 {{ end }}

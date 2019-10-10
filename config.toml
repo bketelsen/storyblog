@@ -30,6 +30,11 @@ buildFuture = true
   title = "Slides"
   url = "/slides/"
 
+[[menu.main]]
+  name = "Projects"
+  title = "Projects"
+  url = "/projects/"
+
 [params]
   author = "Brian Ketelsen"
   twitter = "bketelsen"
