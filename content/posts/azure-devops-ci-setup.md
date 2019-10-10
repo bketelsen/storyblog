@@ -3,6 +3,9 @@ title: Azure DevOps CI Setup
 layout: post
 date: "2018-09-11"
 url: "/azure-devops-ci-setup"
+image: "/img/unsplash-photos-QRkew0KwXSM.jpg"
+thumbnail: /img/unsplash-photos-QRkew0KwXSM.tn-500x500.jpg
+credit: "https://unsplash.com/photos/QRkew0KwXSM"
 description: "Setting up CI on Azure DevOps"
 tags:
 - "elixir"

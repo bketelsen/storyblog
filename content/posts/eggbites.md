@@ -3,7 +3,7 @@ title: Egg Bites
 layout: post
 date: "2019-09-13"
 url: "/eggbites"
-image: "/images/eggbites.png"
+image: "/images/eggbites.jpeg"
 description: "Quick Recipe for a home-made version of Starbucks Sous-vide Egg Bites"
 tags:
 - "eggs"

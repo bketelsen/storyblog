@@ -3,6 +3,9 @@ title: Byobu on WSL
 layout: post
 date: "2019-10-09"
 url: "/byobu-wsl"
+image: "/img/unsplash-photos-QRkew0KwXSM.jpg"
+thumbnail: /img/unsplash-photos-QRkew0KwXSM.tn-500x500.jpg
+credit: "https://unsplash.com/photos/QRkew0KwXSM"
 description: "Make your life easier with Byobu"
 tags:
 - "terminal"

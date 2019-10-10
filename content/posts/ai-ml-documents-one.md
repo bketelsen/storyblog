@@ -3,6 +3,9 @@ title: Organizing Documents with Some AI, ML, and Elbow Grease
 layout: post
 date: "2019-09-03"
 url: "/ai-ml-documents-one"
+image: "/img/unsplash-photos-QRkew0KwXSM.jpg"
+thumbnail: /img/unsplash-photos-QRkew0KwXSM.tn-500x500.jpg
+credit: "https://unsplash.com/photos/QRkew0KwXSM"
 description: "Organizing my loose documents with some machine learning, cognitive services, and elbow grease."
 tags:
 - "ai"
