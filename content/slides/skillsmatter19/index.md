@@ -66,8 +66,7 @@ class: img-right-full
 * Multicloud
 * Demo
 * SDK
-* CI/CD
-
+* Demo
 ---
 
 class: img-right-full
@@ -347,5 +346,48 @@ class: roomy, col-2
 
 ![Multi-cloud](/images/mcpipeline.png# w-80pct db fr mr-4)
 
+
+---
+
+class: img-right-full
+
+# Demo
+
+
+![Bit](/images/bit/bigbitocto.png)
+
+
+* Demo <=
+	* import packages
+	* App config
+	* Middleware
+	* Handlers
+	* Consuming the API
+
+
+
+---
+
+class: img-right-full
+
+# Resources / Links
+
+
+![Bit](/images/bit/bigbitread.png)
+
+
+* [Serverless](https://serverless.com/)
+* [Serverless Azure Plugin](https://github.com/serverless/serverless-azure-functions)
+* [Serverless Multicloud](https://github.com/serverless/multicloud)
+* [Multicloud Demo](https://github.com/wbreza/multicloud-demo)
+
+
+---
+
+class: title, smokescreen, shelf, no-footer
+background-image: url(/images/0nnuhlN0BSY.jpg)
+
+# Thank You!
+## @bketelsen
 
 ---
