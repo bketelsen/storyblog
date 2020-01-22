@@ -28,6 +28,12 @@ If, or some `$reason` or combination of `$reasons`, you've decided that the time
 
 The series will continue with other articles and advice on using Windows for your daily driver when you're used to macOS or Linux desktops.
 
+### Preface
+
+In a discussion with [Rob Conery](https://twitter.com/robconery) I made the bold statement that with the addition of WSL2 there were no blockers for the average Open Source developer to use Windows as a daily driver.
+
+To put my money where my mouth is, I've reinstalled a fresh version of Windows 10 on a Surface Pro 6, and I'm going to use it as my daily workhorse for the next 30 days.  We'll call it the #30DayWSLChallenge.
+
 ### Assumptions
 
 _This guide is for you if you're traditionally a macOS or Linux desktop user and you're looking for information on how to use a Windows 10 device with Windows Subsystem for Linux as your primary development environment._
