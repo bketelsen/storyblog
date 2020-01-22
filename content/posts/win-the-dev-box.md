@@ -107,6 +107,31 @@ Go to [the VS Code website](https://code.visualstudio.com/Download) and download
 
 ![remote](/images/wsl/vscode-remote-extensionpack.png)
 
+* Configure Windows Terminal
+
+Open Windows Terminal, then click the "down arrow" next to the new tab button.  Choose "Settings".
+
+Find the stanza with your "Ubuntu" installation and copy the `guid`.  Paste it into the value for "defaultProfile" at the top of the settings file.
+
+![default](/images/wsl/terminal-default-profile.png)
+
+While you're in there, download [Cascadia Code PL](https://github.com/microsoft/cascadia-code/releases) and install it (by double-clicking on the ttf file).  Edit your "Ubuntu" profile in the Windows Terminal settings to use the new font:
+
+```
+	{
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "hidden": false,
+            "name": "Ubuntu",
+            "source": "Windows.Terminal.Wsl",
+            "startingDirectory": "//wsl$/Ubuntu/home/YOURUSER",
+            "fontFace": "Cascadia Code PL",
+            "fontSize": 12,
+        },
+```
+
+While you're there, change your starting directory too, by modifying the "startingDirectory" value.  Change `YOURUSER` to the username you chose when you installed WSL.  Mine was `bjk`.
+
+
 
 ## References and Further Information
 
