@@ -131,6 +131,10 @@ While you're in there, download [Cascadia Code PL](https://github.com/microsoft/
 
 Finally, change your starting directory too, by modifying the "startingDirectory" value.  Change `YOURUSER` to the username you chose when you installed WSL.  Mine was `bjk`.
 
+### Sidebar
+
+In the last step we set the starting directory for Windows Terminal's Ubuntu instance to `//wsl$/Ubuntu/home/bjk`.  This is an awesome little trick you can use from the Windows side of things to browse your WSL file system.   Sometimes Windows Explorer is much easier than using some bash commands to move files around.  Speaking of bash commands, by default your `C:\` drive is mounted in WSL at `/mnt/c`.  How awesome is that?  You can do all kinds of crazy things using these interop tricks.  See the references and links below for more.
+
 
 
 ## References and Further Information
