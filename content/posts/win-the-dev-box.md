@@ -103,5 +103,10 @@ Go to [the VS Code website](https://code.visualstudio.com/Download) and download
 
 ![pin](/images/wsl/pintostart.png)
 
+* Install the Remote WSL Extension in Visual Studio Code
+
+![remote](/images/wsl/vscode-remote-extensionpack.png)
+
+
 ## References and Further Information
 
