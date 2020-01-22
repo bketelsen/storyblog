@@ -135,6 +135,13 @@ Finally, change your starting directory too, by modifying the "startingDirectory
 
 In the last step we set the starting directory for Windows Terminal's Ubuntu instance to `//wsl$/Ubuntu/home/bjk`.  This is an awesome little trick you can use from the Windows side of things to browse your WSL file system.   Sometimes Windows Explorer is much easier than using some bash commands to move files around.  Speaking of bash commands, by default your `C:\` drive is mounted in WSL at `/mnt/c`.  How awesome is that?  You can do all kinds of crazy things using these interop tricks.  See the references and links below for more.
 
+### Continuing On...
+
+* Install your dotfiles
+
+Mine are on [Github](https://github.com/bketelsen/dotfiles).  I created a `git.io` shortcut so I could curl | bash install them.  Install yours however you're accustomed.  If you're searching for options, I am enjoying [chezmoi](https://github.com/twpayne/chezmoi) these days, my repo is a good starting point, showing how you can do different installation tasks by operating system.
+
+Note that WSL is just Linux, Ubuntu to be precise (get that??).  You shouldn't have to modify anything if your dotfiles are already Linux-friendly.
 
 
 ## References and Further Information
