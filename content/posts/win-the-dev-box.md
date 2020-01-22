@@ -129,7 +129,7 @@ While you're in there, download [Cascadia Code PL](https://github.com/microsoft/
         },
 ```
 
-While you're there, change your starting directory too, by modifying the "startingDirectory" value.  Change `YOURUSER` to the username you chose when you installed WSL.  Mine was `bjk`.
+Finally, change your starting directory too, by modifying the "startingDirectory" value.  Change `YOURUSER` to the username you chose when you installed WSL.  Mine was `bjk`.
 
 
 
