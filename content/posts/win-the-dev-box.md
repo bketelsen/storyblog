@@ -32,7 +32,7 @@ The series will continue with other articles and advice on using Windows for you
 
 In a discussion with [Rob Conery](https://twitter.com/robconery) I made the bold statement that with the addition of WSL2 there were no blockers for the average Open Source developer to use Windows as a daily driver.
 
-To put my money where my mouth is, I've reinstalled a fresh version of Windows 10 on a Surface Pro 6, and I'm going to use it as my daily workhorse for the next 30 days.  We'll call it the #30DayWSLChallenge.
+To put my money where my mouth is, I've purchased a [Surface Laptop 3](https://www.microsoft.com/en-us/surface/business/surface-laptop-3), and I'm going to use it as my daily workhorse for the next 30 days.  We'll call it the #30DayWSLChallenge.
 
 ### Assumptions
 
@@ -45,7 +45,9 @@ This also includes an implicit assumption that you're familiar with `bash` or `z
 
 *  Rename your PC
 
-  `Desktop-R4NDH3X` isn't my speed.  When it asks you to reboot, you can choose the "later" option, we have plenty of rebooting coming up.
+`Desktop-R4NDH3X` isn't my speed.  When it asks you to reboot, you can choose the "later" option, we have plenty of rebooting coming up.  
+  
+Go to `Start > Settings > System > About` and click the `Rename this PC` button.  I like to name my computers after [planets in the Dune series of novels](https://dune.fandom.com/wiki/Category:Planets), but you do you...
 
 ![Rename PC](/images/wsl/renamepc.jpg)
 
@@ -55,7 +57,7 @@ Open the Start Menu, then choose Settings, then Update & Security
 
 ![Insider](/images/wsl/insider.png)
 
-Add or link an account, and set up Windows Insider preferences to be either "Slow Ring" or "Fast Ring" to enable WSL2.  Enabling Windows Insider will require a reboot.
+Add or link an account, and set up Windows Insider preferences to be either "Slow Ring" or "Fast Ring" to enable WSL2.  Enabling Windows Insider will require a reboot.  Slow ring is the minimum required for WSL2, Fast ring has all the latest features and potentially some bugs that could prevent you from being productive.  Use your judgement to choose which to install based on your tolerance for risk.
 
 * Windows Update
 
