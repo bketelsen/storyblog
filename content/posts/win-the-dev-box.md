@@ -21,10 +21,12 @@ categories:
 - "Open Source"
 ---
 
-[Work in Progress]
+
 ## A Guide for Open Source Developers Moving To Windows
 
-If, for some `$reason` or combination of `$reasons`, you've decided that the time is right to try Windows as a dev environment, this article series is for you.  In this first article we'll start with the installation and configuration of the Windows Subsystem for Linux, and get you to the point where you can clone and compile/run your OSS projects.
+I think that the time is right to try Windows as a full-time development environment.  If you want to jump on board, this article series is for you!
+
+In this first article we'll start with the installation and configuration of the Windows Subsystem for Linux, and get you to the point where you can clone and compile/run your OSS projects.
 
 The series will continue with other articles and advice on using Windows for your daily driver when you're used to macOS or Linux desktops.
 
@@ -38,7 +40,9 @@ To put my money where my mouth is, I've purchased a [Surface Laptop 3](https://w
 
 _This guide is for you if you're traditionally a macOS or Linux desktop user and you're looking for information on how to use a Windows 10 device with Windows Subsystem for Linux as your primary development environment._
 
-This also includes an implicit assumption that you're familiar with `bash` or `zsh` environments, and have basic skills on the command line.
+  - I’m assuming you’re coming from a *Nix system like MacOS or a Linux distribution
+  - I’m assuming you’re looking for a setup on Windows that feels like the dev environment that you already have
+  - I’m assuming that you’re familiar with the bash or zsh shell, and have basic skills on the command line
 
 
 ## Installation
@@ -137,7 +141,7 @@ While you're in there, download [Cascadia Code PL](https://github.com/microsoft/
         },
 ```
 
-Finally, change your starting directory too, by modifying the "startingDirectory" value.  Change `YOURUSER` to the username you chose when you installed WSL.  Mine was `bjk`.
+Finally, change your starting directory too, by modifying the "startingDirectory" value.  Change `YOURUSER` to the username you chose when you installed WSL.  Mine was `bjk`.  If you don't do this, WSL will start up in your Windows User profile directory, which will be mighty confusing since it's not `$HOME`.
 
 ### Sidebar
 
@@ -160,6 +164,10 @@ Note that WSL is just Linux, Ubuntu to be precise (get that??).  You shouldn't h
 Recently [Docker announced](https://docs.docker.com/docker-for-windows/wsl-tech-preview/) a version of Docker Desktop that works very nicely with both the Windows and WSL sides of your development.  Impressive reading in that link if you're interested in the technical details.  Follow the directions in that link to install and enable WSL2-friendly Docker Desktop.
 
 ![Docker from Both Sides](/images/docker-two-sides.png)
+
+### Integrations
+
+If you're in the terminal in a directory you want to edit, you can type `code .`, which will open Visual Studio Code on the Windows side (!! right?? !!) and install the "Remote WSL" extension for you.  Crazy awesome stuff.
 
 ## References and Further Information
 
