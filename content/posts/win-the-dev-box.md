@@ -24,7 +24,7 @@ categories:
 [Work in Progress]
 ## A Guide for Open Source Developers Moving To Windows
 
-If, or some `$reason` or combination of `$reasons`, you've decided that the time is right to try Windows as a dev environment, this article series is for you.  In this first article we'll start with the installation and configuration of the Windows Subsystem for Linux, and get you to the point where you can clone and compile/run your OSS projects.
+If, for some `$reason` or combination of `$reasons`, you've decided that the time is right to try Windows as a dev environment, this article series is for you.  In this first article we'll start with the installation and configuration of the Windows Subsystem for Linux, and get you to the point where you can clone and compile/run your OSS projects.
 
 The series will continue with other articles and advice on using Windows for your daily driver when you're used to macOS or Linux desktops.
 
@@ -163,5 +163,5 @@ Recently [Docker announced](https://docs.docker.com/docker-for-windows/wsl-tech-
 
 ## References and Further Information
 
-[WSL Tips and Tricks](https://wsl.dev)
-[Awesome WSL](https://github.com/sirredbeard/Awesome-WSL/blob/master/README.md)
+* [WSL Tips and Tricks](https://wsl.dev)
+* [Awesome WSL](https://github.com/sirredbeard/Awesome-WSL/blob/master/README.md)
