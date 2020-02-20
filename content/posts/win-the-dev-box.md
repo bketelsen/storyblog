@@ -153,6 +153,12 @@ Mine are on [Github](https://github.com/bketelsen/dotfiles).  I created a `git.i
 
 Note that WSL is just Linux, Ubuntu to be precise (get that??).  You shouldn't have to modify anything if your dotfiles are already Linux-friendly.
 
+### Docker
+
+Recently [Docker announced](https://docs.docker.com/docker-for-windows/wsl-tech-preview/) a version of Docker Desktop that works very nicely with both the Windows and WSL sides of your development.  Impressive reading in that link if you're interested in the technical details.  Follow the directions in that link to install and enable WSL2-friendly Docker Desktop.
+
+![Docker from Both Sides](/images/docker-two-sides.png)
 
 ## References and Further Information
 
+[WSL Tips and Tricks](https://wsl.dev)
