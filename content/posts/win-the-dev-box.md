@@ -1,5 +1,5 @@
 ---
-title: Win The Dev Box 
+title: Windows For Open Source Development 
 layout: post
 date: "2020-01-22"
 url: "/win-the-dev-box"
@@ -164,3 +164,4 @@ Recently [Docker announced](https://docs.docker.com/docker-for-windows/wsl-tech-
 ## References and Further Information
 
 [WSL Tips and Tricks](https://wsl.dev)
+[Awesome WSL](https://github.com/sirredbeard/Awesome-WSL/blob/master/README.md)
