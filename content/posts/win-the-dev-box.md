@@ -1,8 +1,8 @@
 ---
-title: Windows For Open Source Development 
+title: Windows for Open Source Development 
 layout: post
 date: "2020-01-22"
-url: "/win-the-dev-box"
+url: "/windows-for-open-source-development"
 image: /images/h3GAGi5tXMU.jpg
 thumbnail: /images/h3GAGi5tXMU-thumb.jpg
 credit: https://unsplash.com/photos/h3GAGi5tXMU
@@ -28,11 +28,11 @@ I think that the time is right to try Windows as a full-time development environ
 
 In this first article we'll start with the installation and configuration of the Windows Subsystem for Linux, and get you to the point where you can clone and compile/run your OSS projects.
 
-The series will continue with other articles and advice on using Windows for your daily driver when you're used to macOS or Linux desktops.
+The series will continue with other articles and advice on using Windows as your daily driver if you're used to macOS or Linux desktops.
 
 ### Preface
 
-In a discussion with [Rob Conery](https://twitter.com/robconery) I made the bold statement that with the addition of WSL2 there were no blockers for the average Open Source developer to use Windows as a daily driver.
+In a discussion with [Rob Conery](https://twitter.com/robconery) I made the bold statement that with the addition of the [Windows Subsystem for Linux 2(WSL2)](https://docs.microsoft.com/en-us/windows/wsl/wsl2-about) there were no blockers for the average Open Source developer to use Windows as a daily driver.
 
 To put my money where my mouth is, I've purchased a [Surface Laptop 3](https://www.microsoft.com/en-us/surface/business/surface-laptop-3), and I'm going to use it as my daily workhorse for the next 30 days.  We'll call it the #30DayWSLChallenge.
 
@@ -43,9 +43,16 @@ _This guide is for you if you're traditionally a macOS or Linux desktop user and
   - I’m assuming you’re coming from a *Nix system like MacOS or a Linux distribution
   - I’m assuming you’re looking for a setup on Windows that feels like the dev environment that you already have
   - I’m assuming that you’re familiar with the bash or zsh shell, and have basic skills on the command line
+  - I'm assuming that you're open minded enough to stay with the switch beyond the first few days of discomfort with something new
 
+
+## Getting Started
+
+As an open source developer, almost all the projects I work on are best developed on Linux.  My goal in this guide is to set up a modern Windows 10 environment that rivals the development experience on Linux while providing the comforts of a mainstream operating system.  And by "comforts" I mean things like working audio, long battery life, and stable office suites.  Linux has come a *long* way, but it's still hard to make it a daily driver for most people.
 
 ## Installation
+
+After unboxing your new laptop the first thing to do is rename it.  Windows comes with a randomly generated host name by default.  Yuck!
 
 *  Rename your PC
 
