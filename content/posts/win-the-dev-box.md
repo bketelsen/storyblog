@@ -11,6 +11,7 @@ tags:
 - "windows"
 - "linux"
 - "open source"
+- "30daywslchallenge"
 classes:
 - feature-hyphenate
 - feature-justify
