@@ -68,7 +68,7 @@ Open the Start Menu, then choose Settings, then Update & Security
 
 ![Insider](/images/wsl/insider.png)
 
-Add or link an account, and set up Windows Insider preferences to be either "Slow Ring" or "Fast Ring" to enable WSL2.  Enabling Windows Insider will require a reboot.  Slow ring is the minimum required for WSL2, Fast ring has all the latest features and potentially some bugs that could prevent you from being productive.  Use your judgement to choose which to install based on your tolerance for risk.
+Add or link an account, and set up [Windows Insider](https://insider.windows.com/en-us/) preferences to be either ["Slow Ring" or "Fast Ring"](https://insider.windows.com/en-us/how-to-pc/#about-rings) to enable WSL2.  Enabling Windows Insider will require a reboot.  Slow ring is the minimum required for WSL2 (build 18917 or higher), Fast ring has all the latest features and potentially some bugs that could prevent you from being productive.  Use your judgement to choose which to install based on your tolerance for risk.
 
 * Windows Update
 
@@ -78,9 +78,11 @@ Now go into Windows Update and get the updates.   One of them will be the versio
 
 Head to the [edge download site](https://www.microsoft.com/en-us/edge) and install the new version of Microsoft Edge.  It's based on Chromium and a lot nicer than the older Edge.  Be sure to checkout the multiple profile support.  I have profiles for different contexts (work, banking, personal) and really enjoy the separation of cookies.
 
+It will be automatically installed after an update or two, so this isn't critical, but it's nice to get it out of the way up front.
+
 * Install the features to enable [WSL2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install)
 
-Open Powershell as an Administrator:
+Open PowerShell as an Administrator:
 
 ![Elevated Access Powershell](/images/wsl/wsl-powershell-admin.png)
 
@@ -92,11 +94,18 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
-This enables the Virtual Machine Platform, which gives us the hypervisor from HyperV without installing HyperV. 
+This enables the Virtual Machine Platform, which gives us the hypervisor from HyperV without installing HyperV. It is also available on Windows 10 Home, which has previously been a blocker for developers who want to run Docker, etc, on Windows 10 Home edition.
 
 * Microsoft Store
 
 Open the Microsoft Store app and install any updates that are pending.  If you want to use X11 applications from WSL you'll need an X server too.  I use [X410](https://token2shell.com/x410/) and heartily endorse the purchase if you can catch it ON SALE, like it is now for $9.99 US.  Don't pay full price though, there are others that are available if X410 isn't on sale.
+
+Before we install a Linux distrubtion in WSL, let's go ahead and make WSL 2 our *default* per the [Installation Instructions for WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install). If we don't do this we risk running WSL 1 accidentally and WSL 2 has *much* better performance. Let's open a terminal and run:
+
+```
+wsl --set-default-version 2
+```
+
 
 Install [Ubuntu](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) from the Microsoft Store.  Don't pick a versioned app, just choose the `Ubuntu` app without a version.  It follows LTS.
 
@@ -122,7 +131,7 @@ Go to [the VS Code website](https://code.visualstudio.com/Download) and download
 
 ![pin](/images/wsl/pintostart.png)
 
-* Install the Remote WSL Extension in Visual Studio Code
+* Install the Remote WSL extension in Visual Studio Code which is part of the [VS Code Remote Development extension pack](https://code.visualstudio.com/docs/remote/remote-overview#_remote-development-extension-pack)
 
 ![remote](/images/wsl/vscode-remote-extensionpack.png)
 
@@ -172,6 +181,16 @@ Recently [Docker announced](https://docs.docker.com/docker-for-windows/wsl-tech-
 
 ![Docker from Both Sides](/images/docker-two-sides.png)
 
+You can even just [install Docker Engine - Community for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/) right inside WSL, if you prefer.
+
+Finally, once we have WSL setup the way we'd like, we can export and import our distro(s) to or from a tar file using the [following commands](https://docs.microsoft.com/en-us/windows/wsl/reference#arguments-for-managing-windows-subsystem-for-linux):
+
+wsl --export <Distro> <FileName>
+
+wsl --import <Distro> <InstallLocation> <FileName>
+
+This allows you to move a WSL installation to a new computer if necessary, or just keep a backup somewhere safe.
+
 ### Integrations
 
 If you're in the terminal in a directory you want to edit, you can type `code .`, which will open Visual Studio Code on the Windows side (!! right?? !!) and install the "Remote WSL" extension for you.  Crazy awesome stuff.
@@ -180,3 +199,5 @@ If you're in the terminal in a directory you want to edit, you can type `code .`
 
 * [WSL Tips and Tricks](https://wsl.dev)
 * [Awesome WSL](https://github.com/sirredbeard/Awesome-WSL/blob/master/README.md)
+* [Windows Subsystem for Linux Documentation](https://docs.microsoft.com/en-us/windows/wsl/about)
+* [All WSL distributions in the Microsoft Store](https://aka.ms/wslstore)
