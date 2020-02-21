@@ -37,6 +37,8 @@ In a discussion with [Rob Conery](https://twitter.com/robconery) I made the bold
 
 To put my money where my mouth is, I've purchased a [Surface Laptop 3](https://www.microsoft.com/en-us/surface/business/surface-laptop-3), and I'm going to use it as my daily workhorse for the next 30 days.  We'll call it the #30DayWSLChallenge.
 
+Find other articles in this series [with this link](/tags/30daywslchallenge/).
+
 ### Assumptions
 
 _This guide is for you if you're traditionally a macOS or Linux desktop user and you're looking for information on how to use a Windows 10 device with Windows Subsystem for Linux as your primary development environment._
