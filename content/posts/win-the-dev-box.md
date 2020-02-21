@@ -188,9 +188,11 @@ You can even just [install Docker Engine - Community for Ubuntu](https://docs.do
 
 Finally, once we have WSL setup the way we'd like, we can export and import our distro(s) to or from a tar file using the [following commands](https://docs.microsoft.com/en-us/windows/wsl/reference#arguments-for-managing-windows-subsystem-for-linux):
 
+```
 wsl --export <Distro> <FileName>
 
 wsl --import <Distro> <InstallLocation> <FileName>
+```
 
 This allows you to move a WSL installation to a new computer if necessary, or just keep a backup somewhere safe.
 
