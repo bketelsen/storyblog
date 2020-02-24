@@ -4,6 +4,7 @@ baseurl = "https://brianketelsen.com/"
 title = "Sniffing the Glue"
 paginate = 5
 buildFuture = true
+googleAnalytics = "UA-46945124-1"
 
 [[menu.social]]
   name = "GitHub"
