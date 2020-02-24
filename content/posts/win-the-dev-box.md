@@ -1,7 +1,7 @@
 ---
 title: Windows for Open Source Development 
 layout: post
-date: "2020-01-22"
+date: "2020-02-24"
 url: "/windows-for-open-source-development"
 image: /images/h3GAGi5tXMU.jpg
 thumbnail: /images/h3GAGi5tXMU-thumb.jpg
@@ -25,7 +25,7 @@ categories:
 
 ## A Guide for Open Source Developers Moving To Windows
 
-I think that the time is right to try Windows as a full-time development environment.  If you want to jump on board, this article series is for you!
+I've long used macOS or Linux when I make my Open Source contributions, but I think that the time is right to try Windows as a full-time development environment.  If you want to jump on board, this article series is for you!
 
 In this first article we'll start with the installation and configuration of the Windows Subsystem for Linux, and get you to the point where you can clone and compile/run your OSS projects.
 
@@ -35,7 +35,7 @@ The series will continue with other articles and advice on using Windows as your
 
 In a discussion with [Rob Conery](https://twitter.com/robconery) I made the bold statement that with the addition of the [Windows Subsystem for Linux 2(WSL2)](https://docs.microsoft.com/en-us/windows/wsl/wsl2-about) there were no blockers for the average Open Source developer to use Windows as a daily driver.
 
-To put my money where my mouth is, I've purchased a [Surface Laptop 3](https://www.microsoft.com/en-us/surface/business/surface-laptop-3), and I'm going to use it as my daily workhorse for the next 30 days.  We'll call it the #30DayWSLChallenge.
+To put my money where my mouth is, I've (personally) purchased a [Surface Laptop 3](https://www.microsoft.com/en-us/surface/business/surface-laptop-3), and I'm going to use it as my daily workhorse for the next 30 days.  We'll call it the #30DayWSLChallenge.
 
 Find other articles in this series [with this link](/tags/30daywslchallenge/).
 
@@ -199,6 +199,10 @@ This allows you to move a WSL installation to a new computer if necessary, or ju
 ### Integrations
 
 If you're in the terminal in a directory you want to edit, you can type `code .`, which will open Visual Studio Code on the Windows side (!! right?? !!) and install the "Remote WSL" extension for you.  Crazy awesome stuff.
+
+## Conclusion
+
+From here you are ready to clone a repo and start making changes.  Follow along [here](/tags/30daywslchallenge/) as I add more tips and tricks that I discover on my journey to reduce the number of physical and virtual computers required to do my job.
 
 ## References and Further Information
 
