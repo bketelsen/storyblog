@@ -3,9 +3,9 @@ title: Remote SSH Connections to WSL2
 layout: post
 date: "2020-03-03"
 url: "/ssh-to-wsl2"
-image: /images/h3GAGi5tXMU.jpg
-thumbnail: /images/h3GAGi5tXMU-thumb.jpg
-credit: https://unsplash.com/photos/h3GAGi5tXMU
+image: /images/_XLJy3h77cw.jpg
+thumbnail: /images/_XLJy3h77cw-thumb.jpg
+credit: https://unsplash.com/photos/_XLJy3h77cw
 description: "A Series on Using Windows for Open Source Development"
 tags:
 - "windows"
