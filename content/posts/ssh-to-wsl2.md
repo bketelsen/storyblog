@@ -67,7 +67,7 @@ PasswordAuthentication no
 ```
 I also set `PasswordAuthentication` to `no`, which means I'll be using SSH keys to authenticate.  Put authorized public keys in `~/.ssh/authorized_keys` in order to use this setting.  If you don't allow Password Authentication, you have to have keys setup, so don't enable this without understanding what's going on.
 
-Now, using `netsh` I can port forward connections from Windows to the VM that's running WSL2.  To do this you'll need to get the IP address of your WSL2 instance.  `ip addr` or `ifconfig` should do the trick.  Mine is `172.19.149.102`, so the command to forward port 2222 from Windows to my WSL2 instance is this:
+Now, using `netsh` I can port forward connections from Windows to the VM that's running WSL2.  To do this you'll need to get the IP address of your WSL2 instance.  `ip addr` or `ifconfig` should do the trick.  Mine is `172.19.149.102`, so the PowerShell command to forward port 2222 from Windows to my WSL2 instance is this:
 
 ```
 netsh interface portproxy add v4tov4 listenport=2222 listenaddress=0.0.0.0 connectport=2222 connectaddress=172.19.149.102
