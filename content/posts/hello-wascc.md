@@ -25,11 +25,13 @@ categories:
 ---
 
 
-** This article includes information on how to setup my development environment in WSL2, because it's part of my [#30DayWSLChallenge](/windows-for-open-source-development).
+I'm *really excited* about Web Assembly on the server. The promise of sandboxed and portable code feels like the realization of the vision Docker tried to achieve. In this article I'm going to walk through creating a service using [waSCC](https://wascc.dev/), which is a host runtime for running actors written in web assembly. We'll mostly follow the tutorial for creating a new actor, but with more nuance, and specifics for using WSL2 on my Windows Laptop added for completeness.
+
+<!--more-->
 
 ## WASM on the Server
 
-I'm *really excited* about Web Assembly on the server. The promise of sandboxed and portable code feels like the realization of the vision Docker tried to achieve. In this article I'm going to walk through creating a service using [waSCC](https://wascc.dev/), which is a host runtime for running actors written in web assembly. We'll mostly follow the tutorial for creating a new actor, but with more nuance, and specifics for using WSL2 on my Windows Laptop added for completeness.
+** This article includes information on how to setup my development environment in WSL2, because it's part of my [#30DayWSLChallenge](/windows-for-open-source-development).
 
 ### Development Environment
 

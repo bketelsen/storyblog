@@ -13,6 +13,8 @@ url: code-locally-develop-globally
 
 This post gives you a recipe for an advanced setup that allows you to "code in the cloud" but retain almost all of the benefits of local development.
 
+<!--more-->
+
 ### Ingredients
 
 To bake this cake you will need the following items:

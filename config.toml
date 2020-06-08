@@ -6,6 +6,7 @@ paginate = 5
 buildFuture = true
 googleAnalytics = "UA-46945124-1"
 
+
 [[menu.social]]
   name = "GitHub"
   title = "fab fa-github-square"
@@ -52,6 +53,7 @@ googleAnalytics = "UA-46945124-1"
   url = "/projects/"
 
 [params]
+  mailchimp = "3wkd5xPx9X8922fuqb2fgJYQ"
   author = "Brian Ketelsen"
   twitter = "bketelsen"
   classes = []

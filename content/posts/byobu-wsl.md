@@ -20,6 +20,8 @@ categories:
 
 [Byobu](http://byobu.co/) is a frontend for `tmux` and `screen` that allows you to save your terminal sessions and reconnect to them easily.  It's one of the biggest time-savers in my bag of tricks.  Read along to learn how I use it.  This article applies to any *nix-like system, despite the "on WSL" in the title.
 
+<!--more-->
+
 ### Installing
 
 You can install Byobu on nearly any *nix-like operating system.  Since I'm using Ubuntu and Debian, I'll use `apt` to install the version that is shipped with the OS:

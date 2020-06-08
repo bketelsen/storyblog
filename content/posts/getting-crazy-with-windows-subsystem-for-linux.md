@@ -13,6 +13,8 @@ title = "Getting Crazy with Windows Subsystem for Linux"
 
 Lately I've been on a [mission](https://blog.gopheracademy.com/advent-2017/repeatable-isolated-dev-environments/) to separate my development environments by project, and by category (personal/work/Gophercon/etc).  The writeup on the Gopheracademy blog describes a fun way to create an isolated container-based environment for each project by using LXD on Ubuntu.
 
+<!--more-->
+
 Last night I wondered to myself if there was a way to get a similar experience by manipulating [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/faq) somehow.  That was a rabbit hole of searching, let me tell ya true.
 
 Since the [Fall Creator's Update](http://www.zdnet.com/article/windows-subsystem-for-linux-graduates-in-windows-10-fall-creators-update/) WSL has had more than one distribution available to install.  You can install SUSE, Ubuntu, and soon Fedora.  So deep down in my soul, I KNOW that I can have multiple copies of Ubuntu running with separate filesystems.  That would reproduce the LXD environments I created in Linux.

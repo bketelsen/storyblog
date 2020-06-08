@@ -27,6 +27,8 @@ categories:
 I had a great time on the Arrested DevOps podcast with Bridget Kromhout.
 We chatted along with Taylor Thomas of the Deis team about [krustlet](https://github.com/deislabs/krustlet).
 
+<!--more-->
+
 
 ## Krustlet on Arrested DevOps
 

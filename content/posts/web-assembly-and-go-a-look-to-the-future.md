@@ -13,6 +13,7 @@ title = "Web Assembly and Go: A look to the future"
 
 It's no secret that I'm resistant to learning Javascript and frontend development.  I learned HTML back before CSS was even a thing, and even Javascript came long after I started doing web development.  When I look at modern web development I shudder; the ecosystem is so confusing for someone who has been out of touch as long as I have.  Node, webpack, yarn, npm, frameworks, UMD, AMD, arghhh!
 
+<!--more-->
 I've been watching Web Assembly with anticipation for quite some time, with the hope that it would allow me to write web applications without the typical Javascript build process.
 
 When Web Assembly(wasm) support [landed](https://go-review.googlesource.com/c/go/+/102835) in Go recently, I knew that the time was ripe for some experimentation.  And I couldn't wait to dive in and try it.  I read a few [good](https://blog.owulveryck.info/2018/06/08/some-notes-about-the-upcoming-webassembly-support-in-go.html) [articles](https://docs.google.com/document/d/131vjr4DH6JFnb-blm_uRdaC0_Nv3OUwjEY5qVCxCup4/preview#heading=h.mjo1bish3xni) before diving in.  This post will chronicle my experience.
