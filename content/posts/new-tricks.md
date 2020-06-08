@@ -11,7 +11,11 @@ title = "New Tricks - notes as I learn modern front-end development"
 
 +++
 
-I promised [here](https://brianketelsen.com/opensource/) that I would document my progress learning frontend development.  This isn't a book-length treatise on the subject, but I do have a few notes about my progress.  <!--more-->It's been a little overwhelming going from zero to having an idea about what I'm doing.  Many other people have mentioned it, so I won't belabor the point -- the Javascript ecosystem is huge and confusing.  Seriously.
+I promised [here](https://brianketelsen.com/opensource/) that I would document my progress learning frontend development.  This isn't a book-length treatise on the subject, but I do have a few notes about my progress.  
+
+<!--more-->
+
+It's been a little overwhelming going from zero to having an idea about what I'm doing.  Many other people have mentioned it, so I won't belabor the point -- the Javascript ecosystem is huge and confusing.  Seriously.
 
 > I played with several different frameworks with varying results.  I'm not sure whether my success and/or appreciation of the frameworks is based on my bias and previous learnings, but some are much easier than others to pick up.
 
