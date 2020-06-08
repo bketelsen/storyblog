@@ -11,6 +11,21 @@ googleAnalytics = "UA-46945124-1"
   title = "fab fa-github-square"
   url = "https://github.com/bketelsen"
 
+[[menu.social]]
+  name = "Twitter"
+  title = "fab fa-twitter-square"
+  url = "https://twitter.com/bketelsen"
+
+[[menu.social]]
+  name = "Youtube"
+  title = "fab fa-youtube-square"
+  url = "https://youtube.com/bketelsen"
+
+[[menu.social]]
+  name = "Twitch"
+  title = "fab fa-twitch"
+  url = "https://twitch.tv/bketelsen"
+
 [[menu.main]]
   name = "Quick"
   title = "Quick"
