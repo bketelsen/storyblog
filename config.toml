@@ -6,7 +6,7 @@ title                   = "Brian Ketelsen"
 theme                   = "future"
 paginate                = 3
 disqusShortname         = ""
-googleAnalytics         = ""
+googleAnalytics         = "UA-46945124-1"
 pluralizeListTitles     = false
 disableLanguages        = [""]
 
@@ -65,7 +65,7 @@ disableLanguages        = [""]
     socialFooter        = true
 
   [params.staticman]
-    enabled             = true
+    enabled             = false
     api                 = ""  # No Trailing Slash
     gitProvider         = ""
     username            = ""
