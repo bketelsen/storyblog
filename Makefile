@@ -1,7 +1,15 @@
 .POSIX:
 DESTDIR=public
-HUGO_VERSION=0.47.1
-THEME=story
+HUGO_VERSION=0.73.0
+THEME=future
+TARGET := $(shell uname)
+ifeq ($(TARGET), Darwin)
+ $(info $(TARGET))
+ ARCH=macOS
+else
+ $(info  $(TARGET))
+ ARCH=Linux
+endif
 
 .PHONY: all
 all: serve remote clean get build test deploy
@@ -17,7 +25,7 @@ get:
 	@echo "❓ Checking for hugo"
 	@if ! [ -x "$$(command -v hugo)" ]; then\
 		echo "🤵 Getting Hugo";\
-		cd ./bin && ./setup.sh $(HUGO_VERSION);\
+		cd ./bin && ./setup.sh $(HUGO_VERSION) $(ARCH);\
 		hugo version;\
 	fi
 	@echo "✔ hugo"

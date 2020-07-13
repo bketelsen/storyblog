@@ -1,7 +1,7 @@
----
-title: Brian Ketelsen
-subtitle: "Featured Projects"
----
-[![Brian Ketelsen](/images/2017/09/briangopher.png)](https://www.brianketelsen.com)
++++
+aliases = ["projects"]
+title = "Projects"
+author = "Brian Ketelsen"
+tags = ["index"]
 
-Brian Ketelsen is a Cloud Developer Advocate at Microsoft Azure.  He also co-organizes GopherCon, a community-focused conference for Go programmers held each summer.  
++++

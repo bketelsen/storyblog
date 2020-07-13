@@ -3,6 +3,8 @@ title: devlx
 date: "2019-03-11"
 description: "Development Environments for Linux"
 github: "https://github.com/bketelsen/devlx"
+org: "bketelsen"
+repo: "devlx"
 tags:
 - "go"
 - "lxd"

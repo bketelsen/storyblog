@@ -1,0 +1,66 @@
+# Site settings
+theme = "future"
+baseurl = "https://brianketelsen.com/"
+title = "Sniffing the Glue"
+paginate = 5
+buildFuture = true
+googleAnalytics = "UA-46945124-1"
+
+
+[[menu.social]]
+  name = "GitHub"
+  title = "fab fa-github-square"
+  url = "https://github.com/bketelsen"
+
+[[menu.social]]
+  name = "Twitter"
+  title = "fab fa-twitter-square"
+  url = "https://twitter.com/bketelsen"
+
+[[menu.social]]
+  name = "Youtube"
+  title = "fab fa-youtube-square"
+  url = "https://youtube.com/bketelsen"
+
+[[menu.social]]
+  name = "Twitch"
+  title = "fab fa-twitch"
+  url = "https://twitch.tv/bketelsen"
+
+[[menu.main]]
+  name = "Quick"
+  title = "Quick"
+  url = "/quick/"
+
+[[menu.main]]
+  name = "Posts"
+  title = "Posts"
+  url = "/posts/"
+
+[[menu.main]]
+  name = "Talks"
+  title = "Talks"
+  url = "/talks/"
+
+[[menu.main]]
+  name = "Slides"
+  title = "Slides"
+  url = "/slides/"
+
+[[menu.main]]
+  name = "Projects"
+  title = "Projects"
+  url = "/projects/"
+
+[params]
+  mailchimp = "3wkd5xPx9X8922fuqb2fgJYQ"
+  author = "Brian Ketelsen"
+  twitter = "bketelsen"
+  classes = []
+
+[outputs]
+  home = ["HTML", "JSON", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML", "RSS"]

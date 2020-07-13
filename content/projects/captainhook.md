@@ -3,6 +3,8 @@ title: Captain Hook
 date: "2018-09-11"
 description: "Webhook Endpoint"
 github: "https://github.com/bketelsen/captainhook"
+org: "bketelsen"
+repo: "captainhook"
 tags:
 - "go"
 - "webhooks"

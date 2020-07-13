@@ -13,3 +13,8 @@ $RECYCLE.BIN/
 
 # OSX
 .DS_Store
+
+# setup
+bin/hugo
+bin/LICENSE
+bin/README.md

@@ -1,6 +1,6 @@
 ---
 title: Title
-date: {{ .Date }
+date: {{ .Date }}
 description: "Description"
 link: ""
 tags:
@@ -9,4 +9,3 @@ categories:
 - "Development"
 ---
 
-Body
