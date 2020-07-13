@@ -107,6 +107,12 @@ ssh -p 2222 bjk@192.0.1.100
 ```
 where the `192.0.1.100` is the IP address of my Windows machine.
 
+### Update August 2020
+
+The failing of this method is that your WSL2 instance gets a new IP address each time it restarts. I'm working on an update to this process that follows some of the suggestions in [this Github issue](https://github.com/microsoft/WSL/issues/4150). I'll update this post with the results.
+
+
+
 #### Extra Credit
 
 For extra credit you can set up port forwarding on your internet router to forward to this same service. I picked a random high port (like 28945), and set up port forwarding from that port to port 2222 on my Windows machine.  Because it's an uncommon port, it won't get the usual SSH bot scanning traffic, and I don't have root login or password authentication enabled in the ssh daemon configuration.  So I feel relatively good about the security risk.  Be sure to understand your security profile before undertaking something like this.
