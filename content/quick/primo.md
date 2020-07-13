@@ -1,12 +1,11 @@
 ---
-title: Docli.dev
-description: docopt-like command line library for Go
-date: 2019-03-20T18:27:29.004Z
-link: 'https://docli.dev/'
+title: Primo
+description: CMS, IDE, Static Site Generator
+date: 2020-07-13T14:27:29.004Z
+link: 'https://primo.af'
 tags:
-  - go
-  - cli
+  - ssg
 categories:
-  - Development
+  - Web
 ---
-This looks very similar to `docopt`, and has an interesting implementation. Curious to see it in the wild.
+Very interesting take on static site generation and content management.
