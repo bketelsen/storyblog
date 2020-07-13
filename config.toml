@@ -155,12 +155,13 @@ disableLanguages        = [""]
   reddit                = "brianketelsen"
   quora                 = ""
   youtube               = "bketelsen"
+  twitch                = "bketelsen"
   vimeo                 = ""
   whatsapp              = "" # WhatsApp Number
     # WeChat and QQ need testing.
     wechat              = ""
     qq                  = "" # User ID Number
-  instagram             = "example"
+  instagram             = ""
   tumblr                = ""
   twitter               = "bketelsen"
   strava                = ""
