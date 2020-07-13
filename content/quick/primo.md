@@ -1,7 +1,7 @@
 ---
 title: Primo
 description: CMS, IDE, Static Site Generator
-date: 2020-07-13T14:27:29.004Z
+date: 2020-07-13T00:27:29.004Z
 link: 'https://primo.af'
 tags:
   - ssg
