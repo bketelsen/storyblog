@@ -2,7 +2,8 @@
   {{ with .Site.Params.intro.pic }}<a href="{{ "/" | relLangURL}}"><img src="{{ .src | absURL }}" class="{{ .shape }}" width="{{ .width }}" alt="{{ .alt }}" /></a>{{ end }}
   <header>
     {{ with .Site.Params.intro.header }}<h1>{{ . | safeHTML }}</h1>{{ end }}
-  </header>
+    <a href="//twitch.tv/bketelsen"><img src="https://img.shields.io/twitch/status/bketelsen?style=for-the-badge"></i></a>
+    </header>
   <main>
     {{ with .Site.Params.intro.paragraph }}<p>{{ . | safeHTML }}</p>{{ end }}
   </main>
