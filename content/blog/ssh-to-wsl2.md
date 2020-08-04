@@ -109,8 +109,70 @@ where the `192.0.1.100` is the IP address of my Windows machine.
 
 ### Update August 2020
 
-The failing of this method is that your WSL2 instance gets a new IP address each time it restarts. I'm working on an update to this process that follows some of the suggestions in [this Github issue](https://github.com/microsoft/WSL/issues/4150). I'll update this post with the results.
+The failing of this method is that your WSL2 instance gets a new IP address each time it restarts. Based on several of the suggestions in [this Github issue](https://github.com/microsoft/WSL/issues/4150) I've created a successful workaround.
 
+Start by using Windows Powershell ISE to create a new script called `WSL.ps1`.  I saved mine in the root of my User directory in Windows.  `C:\Users\me\WSL.ps1` Add this script as the contents of the file then save it:
+
+```
+$remoteport = bash.exe -c "ifconfig eth0 | grep 'inet '"
+$found = $remoteport -match '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}';
+
+if( $found  ){
+  $remoteport = $matches[0];
+  
+} else{
+  echo "The Script Exited, the ip address of WSL 2 cannot be found";
+    exit;
+    
+}
+
+#[Ports]
+
+#All the ports you want to forward separated by comma
+$ports=@(2222);
+
+
+#[Static ip]
+#You can change the addr to your ip config to listen to a specific address
+$addr='0.0.0.0';
+$ports_a = $ports -join ",";
+
+
+#Remove Firewall Exception Rules
+iex "Remove-NetFireWallRule -DisplayName 'WSL 2 Firewall Unlock' ";
+
+#adding Exception Rules for inbound and outbound Rules
+iex "New-NetFireWallRule -DisplayName 'WSL 2 Firewall Unlock' -Direction Outbound -LocalPort $ports_a -Action Allow -Protocol TCP";
+iex "New-NetFireWallRule -DisplayName 'WSL 2 Firewall Unlock' -Direction Inbound -LocalPort $ports_a -Action Allow -Protocol TCP";
+
+for( $i = 0; $i -lt $ports.length; $i++  ){
+  $port = $ports[$i];
+    iex "netsh interface portproxy delete v4tov4 listenport=$port listenaddress=$addr";
+      iex "netsh interface portproxy add v4tov4 listenport=$port listenaddress=$addr connectport=$port connectaddress=$remoteport";
+      
+}
+```
+
+Next click on the Start menu and type `scheduler`. Open `Task Scheduler`.
+
+In the right side menu bar, select `Create Task`. Give it a name (I chose 'WSL'), then choose the `triggers` tab. Select 'At Log On' for the trigger, and 'for any user'.
+
+Now go to the `Actions` tab and create a new action. Choose `Start a program`, type `powershell.exe` as the program name, then type `-ExecutionPolicy Bypass c:\Users\me\WSL.ps1` in the 'arguments' box. Ensure that the path to the script file is correct based on where you saved the script above.
+
+I've also added a few lines to the end of my `.bashrc` to ensure `ssh` is running:
+
+```bash
+SERVICE='ssh'
+
+if ps ax | grep -v grep | grep $SERVICE > /dev/null
+then
+    echo "$SERVICE service running."
+else
+    sudo /etc/init.d/ssh start
+fi
+```
+
+I'll probably extract that out into a bash function called `ensure` so I can use it for more than this task.
 
 
 #### Extra Credit
