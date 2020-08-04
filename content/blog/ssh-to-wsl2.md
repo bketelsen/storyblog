@@ -82,7 +82,7 @@ Finally I had to allow port 2222 through the Windows Firewall.  The simplest way
 
 Then open the Advanced Firewall settings:
 
-![Advanced Firewall Settings](/images/wsl/advancedfw.png)
+![Advanced Firewall Settings](/images/wsl/advancefw.png)
 
 Click "Inbound" in the left pane, then "New..." on the right pane.  Choose "Port":
 
