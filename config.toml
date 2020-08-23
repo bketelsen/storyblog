@@ -114,11 +114,18 @@ disableLanguages        = [""]
     weight            = 6
 
   [[menu.main]]
+    name              = "LPT"
+    identifier        = "lpt"
+    url               = "/lpt/"
+    pre               = "<i class='fas fa-lightbulb'></i>"
+    weight            = 7
+  
+  [[menu.main]]
     name              = "Categories"
     identifier        = "categories"
     url               = "/categories/"
     pre               = "<i class='fas fa-sitemap'></i>"
-    weight            = 7
+    weight            = 8
 
 [Languages]
 
