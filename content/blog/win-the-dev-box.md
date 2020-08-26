@@ -106,16 +106,19 @@ This enables the Virtual Machine Platform, which gives us the hypervisor from Hy
 
 Open the Microsoft Store app and install any updates that are pending.  If you want to use X11 applications from WSL you'll need an X server too.  I use [X410](https://token2shell.com/x410/) and heartily endorse the purchase if you can catch it ON SALE, like it is now for $9.99 US.  Don't pay full price though, there are others that are available if X410 isn't on sale.
 
-Before we install a Linux distribution in WSL, let's go ahead and make WSL 2 our *default* per the [Installation Instructions for WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install). If we don't do this we risk running WSL 1 accidentally and WSL 2 has *much* better performance. Let's open a terminal and run:
 
-```
-wsl --set-default-version 2
-```
 
 
 Install [Ubuntu](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) from the Microsoft Store.  Don't pick a versioned app, just choose the `Ubuntu` app without a version.  It follows LTS.
 
 ![Ubuntu](/images/wsl/microsoft-store-ubuntu.png)
+
+
+Let's and make WSL 2 our *default* per the [Installation Instructions for WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install). If we don't do this we risk running WSL 1 accidentally and WSL 2 has *much* better performance. Let's open a terminal and run:
+
+```
+wsl --set-default-version 2
+```
 
 Install [Windows Terminal](https://www.microsoft.com/store/productId/9N0DX20HK701).  The new Windows Terminal is a solid terminal emulator, and you'll feel at home here if you're used to iTerm2 or Gnome Terminal.  I didn't mark this as optional, because you're used to using a real terminal, and Windows Terminal is the only thing that will satisfy you.  Trust me on this.
 
