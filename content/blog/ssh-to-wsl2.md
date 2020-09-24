@@ -159,6 +159,8 @@ In the right side menu bar, select `Create Task`. Give it a name (I chose 'WSL')
 
 Now go to the `Actions` tab and create a new action. Choose `Start a program`, type `powershell.exe` as the program name, then type `-ExecutionPolicy Bypass c:\Users\me\WSL.ps1` in the 'arguments' box. Ensure that the path to the script file is correct based on where you saved the script above.
 
+This powershell command executes `ifconfig` which might not be installed by default. In Ubuntu you can install it with the `net-tools` package. If your scheduled task exits *really quickly* make sure this package is installed. The task takes a few seconds to run.
+
 I've also added a few lines to the end of my `.bashrc` to ensure `ssh` is running:
 
 ```bash
