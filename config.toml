@@ -49,9 +49,9 @@ disableLanguages        = [""]
     alwaysOnHomepage      = false
 
     [params.intro.pic]
-      src                 = "img/main/logo.jpg"
+      src                 = "img/main/bri.png"
       shape               = "circle"
-      width               = ""
+      width               = "81"
       alt                 = "Brian Ketelsen"
 
   [params.sidebar]
