@@ -9,7 +9,6 @@ tags:
   - "go"
   - "azure"
 title: "Learn With Me: Moving Gophercon to Azure"
-
 cover:
     image: "azure.png" # image path/url
     alt: "azure" # alt text
