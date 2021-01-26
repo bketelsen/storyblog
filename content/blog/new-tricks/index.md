@@ -1,15 +1,19 @@
-+++
-author = "Brian Ketelsen"
-categories = ["frontend", "javascript"]
-date = 2016-05-04T22:59:00Z
-description = ""
-draft = false
-images = ["https://images.unsplash.com/photo-1485873402302-54d29627d4dc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=92fef24305267cc33dca74cb14d58118"]
-aliases = ["/new-tricks"]
-tags = ["frontend", "javascript"]
-title = "New Tricks - notes as I learn modern front-end development"
-
-+++
+---
+categories: 
+  - "Development"
+date: 2016-05-04T22:59:00Z
+cover:
+    image: "cubicroot-xyz-rFNVqR2rJE0-unsplash.jpg" # image path/url
+    alt: "Fetch this, old dog :)" # alt text
+    caption: "https://unsplash.com/photos/rFNVqR2rJE0" # display caption under cover
+    relative: true # when using page bundles set this to true
+aliases: 
+  - "/new-tricks"
+tags: 
+  - "frontend"
+  - "javascript"
+title: "New Tricks - notes as I learn modern front-end development"
+---
 
 I promised [here](https://brianketelsen.com/opensource/) that I would document my progress learning frontend development.  This isn't a book-length treatise on the subject, but I do have a few notes about my progress.  
 

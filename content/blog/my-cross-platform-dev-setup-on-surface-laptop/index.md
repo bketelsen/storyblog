@@ -1,15 +1,23 @@
-+++
-author = "Brian Ketelsen"
-categories = ["development", "linux", "windows"]
-date = 2017-09-29T02:25:44Z
-description = ""
-draft = false
-images = ["/images/2017/09/desktop.png"]
-aliases = ["/my-cross-platform-dev-setup-on-surface-laptop"]
-tags = ["development", "linux", "windows"]
-title = "My Cross-Platform Dev Setup on Surface Laptop"
+---
+categories: 
+  - "development"
+  - "linux"
+  - "windows"
+date: 2017-09-29T02:25:44Z
 
-+++
+cover:
+    image: "desktop.png" # image path/url
+    alt: "Desktop" # alt text
+    caption: "Desktop" # display caption under cover
+    relative: true # when using page bundles set this to true
+aliases: 
+  - "/my-cross-platform-dev-setup-on-surface-laptop"
+tags: 
+  - "development"
+  - "linux"
+  - "windows"
+title: "My Cross-Platform Dev Setup on Surface Laptop"
+---
 
 I want to document a setup that I've found that works really well for me using Windows 10 and [Windows Subsystem for Linux](https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/) for general development.  Before we dive into any specifics, though, I want to provide some background and explain my objectives which will help to frame the decisions I've made and the trade-offs chosen to reach a more ideal environment.
 
