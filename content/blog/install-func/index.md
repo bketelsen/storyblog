@@ -4,18 +4,16 @@ layout: post
 date: "2020-08-14"
 aliases: 
 - "/install-func"
-images: 
-- /images/4pPzKfd6BEg.jpg
-thumbnail: /images/4pPzKfd6BEg-thumb.jpg
-credit: https://unsplash.com/photos/4pPzKfd6BEg
+cover:
+    image: "4pPzKfd6BEg.jpg" # image path/url
+    alt: "Command Center" # alt text
+    caption: "https://unsplash.com/photos/4pPzKfd6BEg" # display caption under cover
+    relative: true # when using page bundles set this to true
+
 description: "A quick helper function and directory layout for repeatable software installs."
 tags:
 - "linux"
 - "open source"
-classes:
-- feature-hyphenate
-- feature-justify
-- feature-highlight
 categories:
 - "Linux"
 ---

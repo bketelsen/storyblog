@@ -1,15 +1,22 @@
-+++
-author = "Brian Ketelsen"
-categories = ["windows", "linux", "i3"]
-date = 2016-07-03T22:46:00Z
-description = ""
-draft = false
-images = ["/images/2017/09/windows-on-top-1.png"]
-aliases = ["/i3-windows"]
-tags = ["windows", "linux", "i3"]
-title = "Running i3 Window Manager on Bash For Windows"
-
-+++
+---
+categories:
+  - "windows"
+  - "linux"
+  - "i3"
+date: 2016-07-03T22:46:00Z
+cover:
+    image: "windows-on-top-1.png" # image path/url
+    alt: "Windows and Linux" # alt text
+    caption: "Windows and Linux" # display caption under cover
+    relative: true # when using page bundles set this to true
+aliases: 
+  - "/i3-windows"
+tags: 
+  - "windows"
+  - "linux"
+  - "i3"
+title: "Running i3 Window Manager on Bash For Windows"
+---
 
 That might be the longest title for a blog post ever, but it's kind of hard to describe what's going on here if you're not familiar with the latest updates from Microsoft land.  <!--more-->Here's a quick refresher:
 
