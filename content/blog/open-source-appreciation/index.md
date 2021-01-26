@@ -1,22 +1,27 @@
-+++
-author = "Brian Ketelsen"
-categories = ["open source"]
-date = 2015-05-11T23:03:00Z
-description = ""
-draft = false
-images = ["https://images.unsplash.com/photo-1442504028989-ab58b5f29a4a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=983d1bcc49709c385952e95ecad5f5d5"]
-aliases = ["/open-source-appreciation"]
-tags = ["open source"]
-title = "Open Source Appreciation"
+---
+categories: 
+  - "open source"
+date: 2015-05-11T23:03:00Z
 
-+++
+cover:
+    image: "william-white-TZCppMjaOHU-unsplash.jpg" # image path/url
+    alt: "Fetch this, old dog :)" # alt text
+    caption: "https://unsplash.com/photos/TZCppMjaOHU" # display caption under cover
+    relative: true # when using page bundles set this to true
+aliases: 
+  - "/open-source-appreciation"
+tags: 
+  - "open source"
+title: "Open Source Appreciation"
+
+---
 
 I've never been shy about sharing my love for Open Source.  I love creating things, and I love sharing them with others.  One of my particular joys with Open Source Software, however, is finding new projects that excite me.<!--more-->
 
 I generally get excited about new OSS projects for two reasons:
 
 1. It does something I want or need to do
-1. It is written in a way that allows or encourages me to learn something new
+2. It is written in a way that allows or encourages me to learn something new
 
 The first is obvious... when I've got a project to complete and it makes sense to use an open source component, it's my first preference.  I'm always happy when someone else has thought through the hard parts and done the work to make a quality project and share it with the world.  I truly enjoy contributing to these projects too.  Some developer scratched an itch she had and shared it with the world, now I get to help make it better.  That's just winning for everyone.
 

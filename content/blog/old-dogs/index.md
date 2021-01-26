@@ -1,15 +1,22 @@
-+++
-author = "Brian Ketelsen"
-categories = ["frontend", "javascript", "css"]
-date = 2016-06-13T23:02:00Z
-description = ""
-draft = false
-images = ["https://images.unsplash.com/photo-1476873064915-2f5cde044a5d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=403bd5632c18b38d3586b6e7e46741b2"]
-aliases = ["/old-dogs"]
-tags = ["frontend", "javascript", "css"]
-title = "Old Dogs, New Tricks, and Cognitive Bias"
-
-+++
+---
+categories: 
+  - "frontend"
+  - "javascript"
+  - "css"
+date: 2016-06-13T23:02:00Z
+cover:
+    image: "pavel-anoshin-m-fvIeA9WZU-unsplash.jpg" # image path/url
+    alt: "Fetch this, old dog :)" # alt text
+    caption: "https://unsplash.com/photos/fvIeA9WZU" # display caption under cover
+    relative: true # when using page bundles set this to true
+aliases: 
+  - "/old-dogs"
+tags: 
+  - "frontend"
+  - "javascript"
+  - "css"
+title: "Old Dogs, New Tricks, and Cognitive Bias"
+---
 
 For 15 or more years I have told myself that I can't do frontend web work.  I remember seeing a presentation from a co-worker on CSS in 2003 or so, and thinking it was just too complicated.  I've always been the guy behind the scenes building the services that power the web, but never the one spending any time making them less ugly.<!--more-->
 

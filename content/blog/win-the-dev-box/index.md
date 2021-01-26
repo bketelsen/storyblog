@@ -14,13 +14,8 @@ tags:
 - "linux"
 - "open source"
 - "30daywslchallenge"
-classes:
-- feature-hyphenate
-- feature-justify
-- feature-highlight
 categories:
-- "Linux"
-- "Windows"
+- "Development"
 - "Open Source"
 ---
 

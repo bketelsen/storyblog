@@ -4,23 +4,19 @@ layout: post
 date: "2020-03-03"
 aliases: 
 - "/ssh-to-wsl2"
-images: 
-- /images/_XLJy3h77cw.jpg
-thumbnail: /images/_XLJy3h77cw-thumb.jpg
-credit: https://unsplash.com/photos/_XLJy3h77cw
+cover:
+    image: "cdc-_XLJy3h77cw-unsplash.jpg" # image path/url
+    alt: "Too Many Screens" # alt text
+    caption: "https://unsplash.com/photos/_XLJy3h77cw" # display caption under cover
+    relative: true # when using page bundles set this to true
 description: "A Series on Using Windows for Open Source Development"
 tags:
 - "windows"
 - "linux"
 - "open source"
 - "30daywslchallenge"
-classes:
-- feature-hyphenate
-- feature-justify
-- feature-highlight
 categories:
-- "Linux"
-- "Windows"
+- "Development"
 - "Open Source"
 ---
 

@@ -1,15 +1,18 @@
-+++
-author = "Brian Ketelsen"
-categories = ["hacks"]
-date = 2018-10-06T18:20:43Z
-description = ""
-draft = false
-images = ["/images/2018/10/IMG_1380-1.jpeg"]
-aliases = ["/retractable-green-screen-on-the-cheap"]
-tags = ["hacks"]
-title = "Retractable Green Screen On the Cheap"
-
-+++
+---
+categories: 
+  - "hacks"
+date: 2018-10-06T18:20:43Z
+aliases: 
+  - "/retractable-green-screen-on-the-cheap"
+tags: 
+  - "hacks"
+title: "Retractable Green Screen On the Cheap"
+cover:
+    image: "IMG_1380-1.jpeg" # image path/url
+    alt: "retractable green screen" # alt text
+    caption: "Looks better when the wall is painted" # display caption under cover
+    relative: true # when using page bundles set this to true
+---
 
 Quick post to write up how I built a retractable green screen mount on my wall for not much money.
 
@@ -21,15 +24,15 @@ When the mounting bracket arrived, it said to use a metal rod with a 2" (two inc
 
 Then I measured the target wall and found it was 11.5 feet wide, perfect for my install.  I did the math to center the mount on the wall, accounting for the several inches of the pole-mount that stick out from each side.
 
-![Triple Bracket Mounted On The Wall](/images/2018/10/IMG_1378.jpeg)
+![Triple Bracket Mounted On The Wall](IMG_1378.jpeg)
 
 Then to secure the backdrop to the PVC tubing, I reinforced the backdrop with Gorilla tape every 12 inches.  Duct tape or any other strong tape would work fine.  I drilled a hole through the reinforced backdrop and inserted a wood screw and washer to keep the backdrop secured to the PVC pipe.
 
-![Reinforced Fabric with Gorilla Tape](/images/2018/10/IMG_1381.jpg)
+![Reinforced Fabric with Gorilla Tape](IMG_1381.jpg)
 
 The whole thing took about an hour, mostly because it was awkward working with such a wide format project.  I called my kids in randomly to help when I needed an extra set of hands.
 
-![Final Assembly](/images/2018/10/IMG_1380.jpeg)
+![Final Assembly](IMG_1380.jpeg)
 
 It was really inexpensive, and I can add two more backdrops in the future if the need arises.  Far better than the $1500+ solutions I found at photography stores, and much less intrusive than the nasty stands that take up too much floor space.
 
