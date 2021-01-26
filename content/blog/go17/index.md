@@ -1,15 +1,20 @@
-+++
-author = "Brian Ketelsen"
-categories = ["go", "release"]
-date = 2016-08-15T22:55:00Z
-description = ""
-draft = false
-images = ["https://images.unsplash.com/photo-1487505983481-9aa2d9f9901a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=beb2fdb8e2d1f0b888d896ae904bbb9d"]
-aliases = ["/go17"]
-tags = ["go", "release"]
-title = "Go 1.7 Released"
-
-+++
+---
+categories:
+  - "go"
+  - "release"
+date: 2016-08-15T22:55:00Z
+aliases: 
+  - "/go17"
+tags: 
+  - "go"
+  - "release"
+title: "Go 1.7 Released"
+cover:
+    image: "marc-mueller-Lg8xTZjs6Lg-unsplash.jpg" # image path/url
+    alt: "code editor" # alt text
+    caption: "https://unsplash.com/photos/Lg8xTZjs6Lg" # display caption under cover
+    relative: true # when using page bundles set this to true
+---
 
 Release day is always fun, and Go releases get me pretty excited.  The 1.7 release is especially nice, so I'm going to mention some of my favorite changes in this release.
 <!--more-->

@@ -4,18 +4,16 @@ layout: post
 date: "2019-10-09"
 aliases: 
 - "/byobu-wsl"
-images: 
-- "/images/mbLr6NEatMI.jpg"
-thumbnail: /images/mbLr6NEatMI-thumb.jpg
-credit: https://unsplash.com/photos/mbLr6NEatMI
+cover:
+    image: "mbLr6NEatMI.jpg" # image path/url
+    alt: "Windows" # alt text
+    caption: "https://unsplash.com/photos/mbLr6NEatMI" # display caption under cover
+    relative: true # when using page bundles set this to true
 description: "Make your life easier with Byobu"
 tags:
 - "terminal"
-- "development"
-classes:
-- feature-hyphenate
-- feature-justify
-- feature-highlight
+- "byobu"
+- "tmux"
 categories:
 - "Development"
 ---

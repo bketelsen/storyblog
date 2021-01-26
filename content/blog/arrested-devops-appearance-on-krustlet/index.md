@@ -4,10 +4,12 @@ layout: post
 date: "2020-04-14"
 aliases: 
 - "/arrested-devops-appearance-on-krustlet"
-images: 
-- "/images/b2iviaMJtoU.jpg"
-thumbnail: /images/b2iviaMJtoU-thumb.jpg
-credit: https://unsplash.com/photos/b2iviaMJtoU
+
+cover:
+    image: "b2iviaMJtoU.jpg" # image path/url
+    alt: "Crab" # alt text
+    caption: "https://unsplash.com/photos/b2iviaMJtoU" # display caption under cover
+    relative: true # when using page bundles set this to true
 description: "Podcast about Rust, Kubernetes, and Web Assembly"
 tags:
 - "rust"
@@ -19,10 +21,7 @@ classes:
 - feature-justify
 - feature-highlight
 categories:
-- "Linux"
-- "Windows"
-- "Open Source"
-- "Web Assembly"
+- "Development"
 ---
 
 

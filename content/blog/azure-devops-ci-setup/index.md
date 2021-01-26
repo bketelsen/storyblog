@@ -4,21 +4,18 @@ layout: post
 date: "2018-09-11"
 aliases: 
 - "/azure-devops-ci-setup"
-images: 
-- "/img/unsplash-photos-QRkew0KwXSM.jpg"
-thumbnail: /img/unsplash-photos-QRkew0KwXSM.tn-500x500.jpg
-credit: "https://unsplash.com/photos/QRkew0KwXSM"
+cover:
+    image: "unsplash-photos-QRkew0KwXSM.jpg" # image path/url
+    alt: "Crab" # alt text
+    caption: "https://unsplash.com/photos/QRkew0KwXSM" # display caption under cover
+    relative: true # when using page bundles set this to true
 description: "Setting up CI on Azure DevOps"
 tags:
 - "elixir"
 - "ci"
-classes:
-- feature-hyphenate
-- feature-justify
-- feature-highlight
+- "azure"
 categories:
-- "CI"
-- "Azure"
+- "CI/CD"
 ---
 
 

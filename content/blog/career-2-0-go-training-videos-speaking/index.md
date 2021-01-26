@@ -1,16 +1,20 @@
-+++
-author = "Brian Ketelsen"
-categories = ["speaking", "training"]
-date = 2016-06-18T23:10:00Z
-description = ""
-draft = false
-images = ["https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=de2dfaa06cf1c7b3d2ab7fac089a67bc"]
-aliases = ["/career-2-0-go-training-videos-speaking"]
-tags = ["speaking", "training"]
-title = "Career 2.0 - Go Training, Videos, Speaking"
-
-+++
-
+---
+categories:
+  - "speaking"
+  - "training"
+date: 2016-06-18T23:10:00Z
+cover:
+    image: "mikael-kristenson-3aVlWP-7bg8-unsplash.jpg" # image path/url
+    alt: "classroom" # alt text
+    caption: "https://unsplash.com/photos/3aVlWP-7bg8" # display caption under cover
+    relative: true # when using page bundles set this to true
+aliases: 
+  - "/career-2-0-go-training-videos-speaking"
+tags: 
+  - "speaking"
+  - "training"
+title: "Career 2.0 - Go Training, Videos, Speaking"
+---
 A week ago I decided to start a new journey.  While I truly enjoyed working with Blake Mizerany and the team at [backplane](http://backplane.io), I felt I really had a passion for training and growing the Go community and I decided I owe it to myself to pursue it.
 <!--more-->
 ### Flashback: GopherCon 2016

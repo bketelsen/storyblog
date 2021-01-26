@@ -6,14 +6,15 @@ aliases:
 - "/eggbites"
 images: 
 - "/images/eggbites.jpeg"
+cover:
+    image: "eggbites.jpeg" # image path/url
+    alt: "classroom" # alt text
+    caption: "Eggbites in a muffin pan" # display caption under cover
+    relative: true # when using page bundles set this to true
 description: "Quick Recipe for a home-made version of Starbucks Sous-vide Egg Bites"
 tags:
 - "eggs"
 - "recipe"
-classes:
-- feature-hyphenate
-- feature-justify
-- feature-highlight
 categories:
 - "Recipes"
 ---
@@ -21,8 +22,6 @@ categories:
 This post is a change from the usual technical content.  I made my own Egg Bites this morning, inspired by the delicious ones I like to get at Starbucks.
 
 <!--more-->
-
-![Finshed Product](/images/eggbites.jpeg)
 
 ### Recipe
 

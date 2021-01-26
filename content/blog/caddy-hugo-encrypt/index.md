@@ -1,15 +1,20 @@
-+++
-author = "Brian Ketelsen"
-categories = ["hugo", "caddy", "let's encrypt"]
-date = 2015-11-11T23:49:00Z
-description = ""
-draft = false
-images = ["https://images.unsplash.com/photo-1477244075012-5cc28286e465?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=650281f5f6da101b6954a53645bf6501"]
-aliases = ["/caddy-hugo-encrypt"]
-tags = ["hugo", "caddy", "let's encrypt"]
-title = "Caddy and Let's Encrypt"
-
-+++
+---
+categories:
+  - "hugo"
+  - "caddy"
+  - "let's encrypt"
+date: 2015-11-11T23:49:00Z
+cover:
+    image: "markus-spiske-iar-afB0QQw-unsplash.jpg" # image path/url
+    alt: "Windows" # alt text
+    caption: "https://unsplash.com/photos/iar-afB0QQw" # display caption under cover
+    relative: true # when using page bundles set this to true
+tags:
+  - "hugo"
+  - "caddy"
+  - "let's encrypt"
+title: "Caddy and Let's Encrypt"
+---
 
 I spent all of 5 minutes configuring [Caddy](https://caddyserver.com) to automatically pull content from github, post-process it with [hugo](http://gohugo.io) and serve it up with fresh SSL/TLS certificates from Let's Encrypt. <!--more-->
 

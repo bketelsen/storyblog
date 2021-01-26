@@ -1,15 +1,20 @@
-+++
-author = "Brian Ketelsen"
-categories = ["wsl", "development"]
-date = 2017-12-13T21:07:59Z
-description = ""
-draft = false
-images = ["/images/2017/12/startmenu.png"]
-aliases = ["/getting-crazy-with-windows-subsystem-for-linux"]
-tags = ["wsl", "development"]
-title = "Getting Crazy with Windows Subsystem for Linux"
-
-+++
+---
+categories: 
+  - "wsl"
+  - "development"
+date: 2017-12-13T21:07:59Z
+aliases: 
+  - "/getting-crazy-with-windows-subsystem-for-linux"
+tags: 
+  - "wsl"
+  - "development"
+title: "Getting Crazy with Windows Subsystem for Linux"
+cover:
+    image: "startmenu.png" # image path/url
+    alt: "start menu" # alt text
+    caption: "Windows Start Menu" # display caption under cover
+    relative: true # when using page bundles set this to true
+---
 
 Lately I've been on a [mission](https://blog.gopheracademy.com/advent-2017/repeatable-isolated-dev-environments/) to separate my development environments by project, and by category (personal/work/Gophercon/etc).  The writeup on the Gopheracademy blog describes a fun way to create an isolated container-based environment for each project by using LXD on Ubuntu.
 
