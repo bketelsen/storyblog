@@ -2,7 +2,9 @@
 title: Title
 date: {{ .Date }}
 description: "Description"
-link: '' 
+github: "https://github.com/bketelsen/REPO"
+org: "bketelsen"
+repo: "REPO"
 tags:
 - go
 categories:
