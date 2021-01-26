@@ -1,0 +1,62 @@
+#!/bin/bash
+usage () { echo "Usage : $(basename $0) -k <blog|bytes|lpt|projects> -t 'Title in single quotes' -u <unsplash url>"; }
+
+
+# check to ensure we're in the root of the repo
+if [ ! -d ".git" ] 
+then 
+    echo "Please run $(basename $0) in the root of the project"
+    exit 99
+fi
+
+type=blog
+unsplash=
+while getopts k:t:u: flag
+do
+    case "${flag}" in
+        k) kind=${OPTARG};;
+        t) title=${OPTARG};;
+        u) unsplash=${OPTARG};;
+    esac
+done
+
+if [ ! "$kind" ] || [ ! "$title" ] 
+then
+    usage
+    exit 1
+fi
+
+# valid types of content
+types=("blog","bytes","lpt","projects")
+
+found=0
+if [[ "${types[@]}" =~ "${kind}" ]];   then
+        found=1
+fi
+if (( found == "0" )); then
+    echo "Incorrect type";
+    usage
+    exit 1
+fi
+
+echo "kind: $kind";
+echo "title: $title";
+echo "unsplash: $unsplash";
+slug=$(echo $title | iconv -t ascii//TRANSLIT | sed -E 's/[~\^]+//g' | sed -E 's/[^a-zA-Z0-9]+/-/g' | sed -E 's/^-+\|-+$//g' | sed -E 's/^-+//g' | sed -E 's/-+$//g' | tr A-Z a-z)
+echo "slug: $slug";
+
+directory=content/${kind}/${slug}
+
+echo creating $directory
+mkdir -p $directory
+cp archetypes/${kind}.md ${directory}/index.md
+
+if [[ ! -z $unsplash ]]; then
+  	pushd ${directory}
+	wget https://source.unsplash.com/${unsplash}/1600x900 -O ${unsplash}.jpg
+	echo -------------------
+	echo image: "${unsplash}.jpg"
+	echo credit: "https://unsplash.com/photos/${unsplash}"
+	echo -------------------
+	popd
+fi
