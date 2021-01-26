@@ -4,21 +4,20 @@ layout: post
 date: "2019-09-03"
 aliases: 
 - "/ai-ml-documents-one"
-images: 
-- "/images/IGa3Md8wP6g.jpg"
-thumbnail: /images/IGa3Md8wP6g-thumb.jpg
-credit: https://unsplash.com/photos/IGa3Md8wP6g
+cover:
+    image: "IGa3Md8wP6g.jpg" # image path/url
+    alt: "Cool Robot Helmet" # alt text
+    caption: "https://unsplash.com/photos/IGa3Md8wP6g" # display caption under cover
+    relative: true # when using page bundles set this to true
 description: "Organizing my loose documents with some machine learning, cognitive services, and elbow grease."
 tags:
 - "ai"
 - "ml"
-classes:
-- feature-hyphenate
-- feature-justify
-- feature-highlight
+- "linux"
+- "azure"
 categories:
-- "Linux"
-- "Azure"
+- "Development"
+- "AI/ML"
 ---
 
 
