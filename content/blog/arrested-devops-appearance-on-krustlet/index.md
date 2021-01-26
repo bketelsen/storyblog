@@ -4,7 +4,6 @@ layout: post
 date: "2020-04-14"
 aliases: 
 - "/arrested-devops-appearance-on-krustlet"
-
 cover:
     image: "b2iviaMJtoU.jpg" # image path/url
     alt: "Crab" # alt text
@@ -16,10 +15,6 @@ tags:
 - "wasm"
 - "podcast"
 - "kubernetes"
-classes:
-- feature-hyphenate
-- feature-justify
-- feature-highlight
 categories:
 - "Development"
 ---
