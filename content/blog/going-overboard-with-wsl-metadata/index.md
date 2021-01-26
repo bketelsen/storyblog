@@ -1,15 +1,24 @@
-+++
-author = "Brian Ketelsen"
-categories = ["hacks", "windows", "linux"]
-date = 2018-03-10T00:42:39Z
-description = "Use a folder from your Windows drive as your $HOME directory in WSL"
-draft = false
-images = ["/images/2018/03/windows-side.PNG"]
-aliases = ["/going-overboard-with-wsl-metadata"]
-tags = ["hacks", "windows", "linux"]
-title = "Going Overboard with WSL metadata"
+---
+categories: 
+  - "hacks"
+  - "windows"
+  - "linux"
+date: 2018-03-10T00:42:39Z
+description: "Use a folder from your Windows drive as your $HOME directory in WSL"
+cover:
+    image: "windows-side.PNG" # image path/url
+    alt: "windows" # alt text
+    caption: "" # display caption under cover
+    relative: true # when using page bundles set this to true
+aliases: 
+  - "/going-overboard-with-wsl-metadata"
+tags: 
+  - "hacks"
+  - "windows"
+  - "linux"
+title: "Going Overboard with WSL metadata"
 
-+++
+---
 
 ### Nerd Sniped
 It all started with a simple tweet from [@nunixtech](https://twitter.com/nunixtech):
@@ -32,7 +41,7 @@ $> rsync -azvh /home/bketelsen/ /home/bketelsen2
 ```
 This took quite a while to complete because my home directory in WSL was full of code.  When it finished, I had a full copy of my WSL home `/home/bketelsen2` directory which was mounted from `C:\home`.  On the Windows side, the `C:\home` directory shows all of my WSL files:
 
-![Windows Side](/images/2018/03/windows-side-1.PNG)
+![Windows Side](windows-side-1.PNG)
 
 That's pretty slick!  Now all I needed to do was make that my $HOME and I'd be set. 
 
@@ -60,15 +69,15 @@ Closing and re-opening WSL confirmed that my WSL `$HOME` directory was now `/mnt
 ### SUCCESS
 With this setup, I have a single folder -- `C:\home` -- available in Windows, but also mounted as my WSL `$HOME`, too.  Files can be modified on either side, with no apparent ill effects. ***Editors Note: This is unproven, and not for risk-averse people.  Use this setup at your own risk.  Backup your data.*** 
 
-![wsl-side](/images/2018/03/wsl-side.PNG)
+![wsl-side](wsl-side.PNG)
 ### One More Thing
 Because too much is never enough, I wanted to prove that this would work for more than one WSL installation.  So I installed the just-announced Debian WSL app, and applied exactly the same change to my `/etc/passwd` file and `/etc/wsl.conf` files.
 
-![debian-installer](/images/2018/03/debian-installer.PNG)
+![debian-installer](debian-installer.PNG)
 
 Now I have two different Linux installations in WSL: Ubuntu and Debian.  They have separate root filesystems, but a single shared `$HOME` directory:
 
-![debian](/images/2018/03/debian.PNG)
+![debian](debian.PNG)
 
 This is extremely cool.  I set up my Go development environment on the Windows side using [Visual Studio Code](https://cda.ms/ht) but set the `$GOPATH` to `C:\home\go`, which is the same as `$HOME/go` on the WSL side.  Now I can develop in Windows or WSL/Linux against the exact same code without any strange permission problems.  Most of the time I'll probably stay in `neovim`, because it's my first love.  But there are no issues when I use VS Code from the Windows side.  I can compile and test from both Windows and Linux with the same source directory.  
 
@@ -91,5 +100,5 @@ Thank you to [@nunixtech](https://twitter.com/nunixtech) for the idea that spawn
 ### Update
 I realized after this worked that the next logical progression of this experiment was to share the same $HOME between Windows and WSL.  TLDR; It works perfectly.  I updated my `/etc/passwd` home directory entry to `/mnt/c/Users/bkete`, moved the contents of the `c:\home` directory into `c:\Users\bkete`, and now I have a single shared home directory between Windows and WSL.  Here's a picture of my OneDrive directory being accessed from WSL as `$HOME/OneDrive`:
 
-![onedrive](/images/2018/03/onedrive.PNG)
+![onedrive](onedrive.PNG)
 

@@ -4,10 +4,12 @@ layout: post
 date: "2020-02-25"
 aliases: 
 - "/hello-wascc"
-images: 
-- "/images/h3GAGi5tXMU.jpg"
-thumbnail: /images/h3GAGi5tXMU-thumb.jpg
-credit: https://unsplash.com/photos/h3GAGi5tXMU
+cover:
+    image: "h3GAGi5tXMU.jpg" # image path/url
+    alt: "Window Panes" # alt text
+    caption: "https://unsplash.com/photos/h3GAGi5tXMU" # display caption under cover
+    relative: true # when using page bundles set this to true
+
 description: "Web Assembly on the Server"
 tags:
 - "windows"
@@ -15,15 +17,9 @@ tags:
 - "open source"
 - "30daywslchallenge"
 - "wasm"
-classes:
-- feature-hyphenate
-- feature-justify
-- feature-highlight
 categories:
-- "Linux"
+- "Development"
 - "Windows"
-- "Open Source"
-- "Web Assembly"
 ---
 
 

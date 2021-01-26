@@ -1,15 +1,21 @@
-+++
-author = "Brian Ketelsen"
-categories = ["go", "azure"]
-date = 2017-07-31T22:56:00Z
-description = ""
-draft = false
-images = ["/images/2017/09/azure.png"]
-aliases = ["/gophercon-on-azure"]
-tags = ["go", "azure"]
-title = "Learn With Me: Moving Gophercon to Azure"
+---
+categories:
+  - "go"
+  - "azure"
+date: 2017-07-31T22:56:00Z
+aliases: 
+  - "/gophercon-on-azure"
+tags: 
+  - "go"
+  - "azure"
+title: "Learn With Me: Moving Gophercon to Azure"
 
-+++
+cover:
+    image: "azure.png" # image path/url
+    alt: "azure" # alt text
+    caption: "Azure" # display caption under cover
+    relative: true # when using page bundles set this to true
+---
 
 I've recently taken on a new role at Microsoft as a Cloud Developer Advocate for Open Source projects on Azure.  My purview is Go, Linux, Containers, and Kubernetes.  While brainstorming ways to learn about all that Azure has to offer an idea occured to me:  Why not move Gophercon over to Azure as a learning tool.  I've decided to do just that and share my learnings along the way.
 
