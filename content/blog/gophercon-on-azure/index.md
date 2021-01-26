@@ -1,7 +1,7 @@
 ---
 categories:
-  - "go"
-  - "azure"
+  - "Development"
+  - "Cloud"
 date: 2017-07-31T22:56:00Z
 aliases: 
   - "/gophercon-on-azure"

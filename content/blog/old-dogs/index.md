@@ -1,8 +1,6 @@
 ---
 categories: 
-  - "frontend"
-  - "javascript"
-  - "css"
+  - "Development"
 date: 2016-06-13T23:02:00Z
 cover:
     image: "pavel-anoshin-m-fvIeA9WZU-unsplash.jpg" # image path/url

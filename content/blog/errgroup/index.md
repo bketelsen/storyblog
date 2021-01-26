@@ -1,8 +1,6 @@
 ---
 categories:
-  - "go"
-  - "errors"
-  - "concurrency"
+  - "Development"
 date: 2016-09-19T22:53:00Z
 cover:
     image: "nick-taylor-gDQ99yDy1M4-unsplash.jpg" # image path/url

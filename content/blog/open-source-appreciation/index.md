@@ -2,7 +2,6 @@
 categories: 
   - "open source"
 date: 2015-05-11T23:03:00Z
-
 cover:
     image: "william-white-TZCppMjaOHU-unsplash.jpg" # image path/url
     alt: "Fetch this, old dog :)" # alt text

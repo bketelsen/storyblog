@@ -4,18 +4,15 @@ layout: post
 date: "2019-05-02"
 aliases: 
 - "/vscode-remote-development"
-images: 
-- /images/fpoHihXiMhg.jpg
-thumbnail: /images/fpoHihXiMhg-thumb.jpg
-credit: https://unsplash.com/photos/fpoHihXiMhg
+cover:
+    image: "fpoHihXiMhg.jpg" # image path/url
+    alt: "Laptop from Anywhere" # alt text
+    caption: "https://unsplash.com/photos/fpoHihXiMhg" # display caption under cover
+    relative: true # when using page bundles set this to true
 description: "Use VS Code against a remote computer or container"
 tags:
 - "vscode"
 - "development"
-classes:
-- feature-hyphenate
-- feature-justify
-- feature-highlight
 categories:
 - "Development"
 ---

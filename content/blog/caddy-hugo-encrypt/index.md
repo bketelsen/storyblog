@@ -1,8 +1,7 @@
 ---
 categories:
-  - "hugo"
-  - "caddy"
-  - "let's encrypt"
+  - "Development"
+  - "Infrastructure"
 date: 2015-11-11T23:49:00Z
 cover:
     image: "markus-spiske-iar-afB0QQw-unsplash.jpg" # image path/url

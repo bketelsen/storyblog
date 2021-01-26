@@ -1,11 +1,12 @@
 ---
 categories: 
-  - "hacks"
+  - "Home"
 date: 2018-10-06T18:20:43Z
 aliases: 
   - "/retractable-green-screen-on-the-cheap"
 tags: 
   - "hacks"
+  - "video"
 title: "Retractable Green Screen On the Cheap"
 cover:
     image: "IMG_1380-1.jpeg" # image path/url

@@ -1,15 +1,21 @@
-+++
-author = "Brian Ketelsen"
-categories = ["dune", "recipes"]
-date = 2015-12-05T00:08:00Z
-description = ""
-draft = false
-images = ["/images/2017/09/sandworm-bread-03.jpg"]
-aliases = ["/tastyworms"]
-tags = ["dune", "recipes"]
-title = "Tasty Worms"
+---
+categories: 
+  - "dune"
+  - "recipes"
+date: 2015-12-05T00:08:00Z
+cover:
+    image: "sandworm-bread-03.jpg" # image path/url
+    alt: "Blessed be the Maker" # alt text
+    caption: "Blessed be the Maker" # display caption under cover
+    relative: true # when using page bundles set this to true
+aliases: 
+  - "/tastyworms"
+tags: 
+  - "dune"
+  - "recipes"
+title: "Tasty Worms"
 
-+++
+---
 
 A coworker sent me a link to this recipe and I have to share it.  It's the tastiest looking sandworm ever.
 

@@ -1,6 +1,6 @@
 +++
 author = "Brian Ketelsen"
-categories = ["wasm", "web", "go", "javascript"]
+categories = ["Development"]
 date = 2018-06-22T16:17:21Z
 description = ""
 draft = false

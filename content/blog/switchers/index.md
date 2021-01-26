@@ -1,15 +1,27 @@
-+++
-author = "Brian Ketelsen"
-categories = ["hacks", "i3", "windows", "linux", "mac"]
-date = 2016-11-07T00:07:00Z
-description = ""
-draft = false
-images = ["/images/2017/09/getamac.png"]
-aliases = ["/switchers"]
-tags = ["hacks", "i3", "windows", "linux", "mac"]
-title = "Switching - Irony and Operating systems"
+---
+categories: 
+  - "hacks"
+  - "i3"
+  - "windows"
+  - "linux"
+  - "mac"
+date: 2016-11-07T00:07:00Z
+cover:
+    image: "getamac.png" # image path/url
+    alt: "Get a Mac" # alt text
+    caption: "Remember these?" # display caption under cover
+    relative: true # when using page bundles set this to true
+aliases: 
+  - "/switchers"
+tags: 
+  - "hacks"
+  - "i3"
+  - "windows"
+  - "linux"
+  - "mac"
+title: "Switching - Irony and Operating systems"
 
-+++
+---
 
 TLDR; I've traded in my Mac on a Surface Pro.  Here's why:<!--more-->
 
