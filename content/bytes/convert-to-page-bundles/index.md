@@ -9,7 +9,10 @@ categories:
 - Development
 ---
 
-I needed a quick script to convert a directory full of posts into Hugo's `page bundle` format.  Old:
+I needed a quick script to convert a directory full of posts into Hugo's `page bundle` format.  
+<!--more-->
+
+Old:
 
 ```
 blog\
