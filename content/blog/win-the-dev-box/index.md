@@ -64,6 +64,8 @@ Go to `Start > Settings > System > About` and click the `Rename this PC` button.
 ![Rename PC](/images/wsl/renamepc.jpg)
 
 * Move to Windows Insider to get beta builds.  
+Update: 
+-- This is no longer necessary, WSL2 is enabled in current and previous releases of Windows now -- 
 
 Open the Start Menu, then choose Settings, then Update & Security
 
