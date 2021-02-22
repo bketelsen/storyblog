@@ -18,3 +18,5 @@ $RECYCLE.BIN/
 bin/hugo
 bin/LICENSE
 bin/README.md
+
+node_modules/
