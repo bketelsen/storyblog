@@ -9,7 +9,7 @@ cover:
   alt: "Crab" # alt text
   caption: "https://unsplash.com/photos/QRkew0KwXSM" # display caption under cover
   relative: true # when using page bundles set this to true
-description: "test5 description"
+description: "test5 description2"
 tags:
 - "elixir"
 - "ci"
