@@ -22,3 +22,5 @@ categories:
 
 ## Second Level Header
 Some stuff
+
+The Image should update in Github if the action is running
